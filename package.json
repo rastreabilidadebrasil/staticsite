@@ -1,0 +1,44 @@
+{
+  "name": "site",
+  
+  "version": "0.0.1",
+  
+  "author": {
+    "name": "Marcus David Bronstein",
+    "email": "marcusdb@yahoo.com",
+    "url": "https://about.me/marcusdb"
+  },
+  
+ 
+  "dependencies": {
+    "grunt-cli":"0.1.13",
+    "grunt": "~0.4.2",
+    "grunt-contrib": "0.8.0",
+    "grunt-contrib-handlebars": "0.5.11",
+    "grunt-jslint":"1.1.2",
+    "grunt-bbb-server":"0.1.0-alpha.13",
+    "grunt-bbb-styles":"0.1.0-alpha.5",
+    "grunt-jasmine-task": "0.2.3",
+    "grunt-contrib-cssmin":"0.6.2",
+    "requirejs": "2.1.9", 
+    "express": "3.4.7",
+    "stylus": "0.41.3",
+    "nib": "1.0.1",
+    "cssom": "0.3.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "gruntplugin","Backbone"
+  ],
+  "engines": {
+    "node": ">= 0.10.a"
+  },
+  "main": "grunt.js",
+  "scripts": {
+    "test": "grunt test"
+  }
+  
+  
+}
