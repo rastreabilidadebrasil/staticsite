@@ -1,0 +1,53 @@
+
+/* ==========================================================================
+	 Start CSS - General
+	 ========================================================================== */
+a {text-decoration: none; color: #707171;}
+
+strong {font-weight: bold;}
+
+hr {
+	clear: both;
+	border-left: none;
+	border-top: 1px solid #BABABA;
+	border-bottom: 1px solid white;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 90%;
+	max-width: 480px;
+	color: #707171;
+	background-color: #0d72b9;
+}
+
+/* Classes Comuns
+========================================================================== */
+
+.alignLeft   {text-align: left;}
+.alignCenter {text-align: center;}
+.alignRight  {text-align: right;}
+
+figure img {width: 100%;}
+	figure a {display: block;}
+
+.clear {clear: both; padding: 0 !important;}
+
+.show  {display: block;}
+.hide  {display: none;}
+
+.first {}
+.last  {}
+
+.fleft  {float: left;}
+.fright {float: right;}
+
+.legend {font-size: 0.9em;}
+
+.pc-version {
+	color: #707171;
+	text-align: center;
+	display: block;
+	font-size: 0.9em;
+	margin: 15px 0 0;
+}
