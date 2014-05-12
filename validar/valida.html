@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>R&B Consumer</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="telephone=no" name="format-detection">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=no" />
+    
+    <link rel="stylesheet" href="assets/css/reset.css" charset="UTF-8" />
+    <link rel="stylesheet" href="assets/css/flexslider.css" charset="UTF-8" />
+    <link rel="stylesheet" href="assets/css/style.css" charset="UTF-8" />
+    
+    <link rel="stylesheet" href="assets/css/@2x.css"   charset="UTF-8" media="screen and and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2)" />
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  
+  <body>
+
+  
+    <div id="wrap">
+    
+      <header>
+        <figure id="logo"><a href="index.html"><img src="assets/img/topo.png" /></a></figure> 
+      </header>
+
+    	<section id="valida">
+    	  
+        <div class="fundovalida">
+
+        </div>
+
+
+        <div id="form" align="center">
+
+          <form action="">
+            <input type="text" id="codigo">
+          </form>
+        </div>
+
+        <div class="btenviar" id="formenvio">
+        
+        </div>
+
+
+
+      </section>
+
+
+    <div>
+
+    <script>
+      $( "#formenvio" ).click(function() {
+        var cod = $('#codigo').val();
+        if (cod>1 && cod<=500)
+        {
+          window.location.href="sucesso.html";
+
+        }else{
+          window.location.href="atencao.html";
+        }
+
+      });
+
+      function verificaNumero(e) {
+                if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+                    return false;
+                }
+            }
+
+      $(document).ready(function() {
+                $("#codigo").keypress(verificaNumero);
+            });
+    </script>
+
+  </body>
+</html>
