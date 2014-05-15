@@ -9,26 +9,26 @@ $(document).ready(function() {
 
 
 	// Contact Form Request
-	$(".validate").validate();
-	$(document).on('submit', '#contactform', function() {
-		$.ajax({
-			url: 'contact/send_mail.php',
-			type: 'post',
-			dataType: 'json',
-			data: $(this).serialize(),
-			success: function(data) {
-				if (data == true) {
-					$('.form-respond').html("<div class='content-message'>  <h2>Email enviado com sucesso</h2> <p>Em breve você receberá uma resposta.</p> </div>");
-				} else {
-					$('.form-respond').html("<div class='content-message'>  <h2>Erro no envio</h2> <p>Tente novamente mais tarde.</p> </div>");
-				}
-			},
-			error: function(xhr, err) {
-				$('.form-respond').html("<div class='content-message'> <i class='fa fa-times fa-4x'></i> <h2>Error sending</h2> <p>Try again later.</p> </div>");
-			}
-		});
-		return false;
-	});
+	//$(".validate").validate();
+	// $(document).on('submit', '#contactform', function() {
+	// 	$.ajax({
+	// 		url: 'contact/send_mail.php',
+	// 		type: 'post',
+	// 		dataType: 'json',
+	// 		data: $(this).serialize(),
+	// 		success: function(data) {
+	// 			if (data == true) {
+	// 				$('.form-respond').html("<div class='content-message'>  <h2>Email enviado com sucesso</h2> <p>Em breve você receberá uma resposta.</p> </div>");
+	// 			} else {
+	// 				$('.form-respond').html("<div class='content-message'>  <h2>Erro no envio</h2> <p>Tente novamente mais tarde.</p> </div>");
+	// 			}
+	// 		},
+	// 		error: function(xhr, err) {
+	// 			$('.form-respond').html("<div class='content-message'> <i class='fa fa-times fa-4x'></i> <h2>Error sending</h2> <p>Try again later.</p> </div>");
+	// 		}
+	// 	});
+	// 	return false;
+	// });
 
 	//Elements Appear from top
 	$('.item_top').each(function() {
