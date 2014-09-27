@@ -1,0 +1,170 @@
+
+@font-face {
+    font-family: 'gotham_boldregular';
+    src: url('_css/_fonts/gotham-bold-webfont.eot');
+    src: url('_css/_fonts/gotham-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('_css/_fonts/gotham-bold-webfont.woff') format('woff'),
+         url('_css/_fonts/gotham-bold-webfont.ttf') format('truetype'),
+         url('_css/_fonts/gotham-bold-webfont.svg#gotham_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham_bookregular';
+    src: url('_css/_fonts/gotham-book-webfont.eot');
+    src: url('_css/_fonts/gotham-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('_css/_fonts/gotham-book-webfont.woff') format('woff'),
+         url('_css/_fonts/gotham-book-webfont.ttf') format('truetype'),
+         url('_css/_fonts/gotham-book-webfont.svg#gotham_bookregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham_lightregular';
+    src: url('_css/_fonts/gotham-light-webfont.eot');
+    src: url('_css/_fonts/gotham-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('_css/_fonts/gotham-light-webfont.woff') format('woff'),
+         url('_css/_fonts/gotham-light-webfont.ttf') format('truetype'),
+         url('_css/_fonts/gotham-light-webfont.svg#gotham_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+*, *:after, *:before { border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+html, body {
+    height: 100%;
+}
+body {
+	background: #f4f4f4;
+	margin:0;
+    padding:0;    
+	font-family: 'gotham_bookregular','gotham_boldregular', Arial, sans-serif;
+}
+header {
+	display: block;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+header .img-et1{
+	padding-top: 15px;
+	width: 200px;
+	height: auto;
+	padding-bottom: 15px;
+}
+header .img-et2{
+	display: none;
+}
+section{
+	min-height: 463px;
+}
+
+.et1, .et2, .et3{
+	width: 100%;
+	min-height: 463px;
+    background: url("../_imgs/overlay.png") no-repeat bottom left #0d71b8;
+    background-size: 130%;
+    position: absolute;
+}
+.et2{
+	background: url("../_imgs/overlay.png") no-repeat bottom left #39b449;
+	background-size: 130%;
+}
+.et3{
+	background: url("../_imgs/overlay.png") no-repeat bottom left #fe1818;
+	background-size: 130%;
+}
+section .et1, section .et2, section .et3{
+	width: 100%;
+}
+footer{
+	width: 100%;
+	height: 99px;
+	background-color: #FFF;
+}
+footer .logo{
+	float: right;
+	margin-right: 35px;
+	margin-top: 35px;
+}
+textarea { 
+	resize: none;
+	width: 888px;
+	height: 141px;
+	position: relative;
+	left: 50%;
+	margin-left: -444px;
+	margin-top: 13%;
+	padding: 19px;
+	font-size: 36px;
+	color: #b1b9bc;
+	text-align: center;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.text {
+	color: #FFF;
+	font-size: 20px;
+	text-align: center;
+}
+
+.et1 .text {
+	font-family: 'gotham_boldregular';
+	font-size: 20px;
+}
+.et2 .text {
+	font-family: 'gotham_boldregular';
+	font-size: 50px;
+}
+.et3 .text {
+	font-family: 'gotham_boldregular';
+	font-size: 45px;
+}
+
+.icone {
+	position: relative;
+	left: 50%;
+	margin-left: -58px;
+	margin-top: 20px;
+	width: 117px;
+	margin-bottom: 20px
+}
+
+.titulo{
+	color: #FFF;
+	text-align: center;
+	font-family: 'gotham_boldregular';
+	font-size: 70px;
+	text-transform: uppercase;
+}
+
+.et2 .titulo{
+	font-size: 107px;
+}
+.et3 .titulo{
+	font-size: 80px;
+	margin-top: 20px;
+}
+.secondary-text{
+	color: #FFF;
+	font-size: 30px;
+	text-align: center;	
+	font-family: 'gotham_boldregular';
+
+}
+
+.et3,.et2{display: none;}
