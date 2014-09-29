@@ -81,14 +81,17 @@ section{
     position: absolute;
 }
 .et2{
+	min-height: 440px;
 	background: url("../_imgs/overlay.png") no-repeat bottom left #39b449;
 	background-size: 130%;
 }
 .et3{
+	min-height: 440px;
 	background: url("../_imgs/overlay.png") no-repeat bottom left #fe1818;
 	background-size: 130%;
 }
 .et4{
+	min-height: 440px;
 	background: url("../_imgs/overlay.png") no-repeat bottom left #E7F012;
 	background-size: 130%;
 	color: #000;
@@ -132,21 +135,22 @@ textarea {
 }
 
 .et1 .text {
-	font-family: 'gotham_boldregular';
+	/*font-family: 'gotham_boldregular';*/
 	font-size: 20px;
 	padding-top: 40px;
+	text-transform: uppercase;	
 }
 .et2 .text {
-	font-family: 'gotham_boldregular';
-	font-size: 50px;
+	/*font-family: 'gotham_boldregular';*/
+	font-size: 30px;
 }
 .et3 .text {
-	font-family: 'gotham_boldregular';
-	font-size: 45px;
+	/*font-family: 'gotham_boldregular';*/
+	font-size: 30px;
 }
 .et4 .text {
-	font-family: 'gotham_boldregular';
-	font-size: 45px;
+	/*font-family: 'gotham_boldregular';*/
+	font-size: 30px;
 }
 
 .icone {
@@ -177,7 +181,7 @@ textarea {
 	color: #FFF;
 	font-size: 30px;
 	text-align: center;	
-	font-family: 'gotham_boldregular';
+	/*font-family: 'gotham_boldregular';*/
 
 }
 
