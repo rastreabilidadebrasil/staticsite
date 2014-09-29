@@ -5,37 +5,36 @@ function submit(value) {
   blockPress = true;
   $("#enterDataMatrix").val('');
   value = dataMatrix.parseDataMatrix(value);
-  if (!dataMatrix.validateRBParsedDataMatrix(value)) {
-    anvisaNumber = parsedDataMatrix["713"];
-    serialNumber = parsedDataMatrix["21"];
-    $.ajax({
-      type: "GET",
-      url: "http://dashboard.rastreabilidadebrasil.com.br/rest/1/report/medical_item/public/anvisa/" +
-        anvisaNumber + "/serial/" + serialNumber,
-      dataType: 'json',
-      success: function(data) {
-        var idToShow=3;//Error
-        if(+data.status!==0){
-          idToShow=2;
-        }
+  anvisaNumber = parsedDataMatrix["713"];
+  serialNumber = parsedDataMatrix["21"];
+  $.ajax({
+    type: "GET",
+    url: "http://dashboard.rastreabilidadebrasil.com.br/rest/1/report/medical_item/public/anvisa/" +
+      anvisaNumber + "/serial/" + serialNumber,
+    dataType: 'json',
+    success: function(data) {
+      var idToShow = 3; //Error
+      if (+data.status !== 0) {
+        idToShow = 2;
+      }
+      $(".et1").animate({
+        opacity: 0.0
+      }, 500, function() {
+        showEt(idToShow);
+      });
+
+    },
+    error: function(error) {
+      if (+error.status === 404) {
         $(".et1").animate({
           opacity: 0.0
         }, 500, function() {
-          showEt(idToShow);
+          showEt(4);
         });
-
-      },
-      error: function(error){
-          if(+error.status===404){
-            $(".et1").animate({
-              opacity: 0.0
-            }, 500, function() {
-              showEt(4);
-            });
-          }
       }
-    });
-  }
+    }
+  });
+
 }
 
 function checkValidade(e) {
