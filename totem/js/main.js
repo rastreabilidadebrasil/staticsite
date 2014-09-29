@@ -5,8 +5,8 @@ function submit(value) {
   blockPress = true;
   $("#enterDataMatrix").val('');
   value = dataMatrix.parseDataMatrix(value);
-  anvisaNumber = parsedDataMatrix["713"];
-  serialNumber = parsedDataMatrix["21"];
+  anvisaNumber = value["713"];
+  serialNumber = value["21"];
   $.ajax({
     type: "GET",
     url: "http://dashboard.rastreabilidadebrasil.com.br/rest/1/report/medical_item/public/anvisa/" +
