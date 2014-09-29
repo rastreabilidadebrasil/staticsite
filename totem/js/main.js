@@ -12,6 +12,9 @@ function submit(value) {
     url: "http://dashboard.rastreabilidadebrasil.com.br/rest/1/report/medical_item/public/anvisa/" +
       anvisaNumber + "/serial/" + serialNumber,
     dataType: 'json',
+    xhrFields: {
+      withCredentials: true
+    },
     success: function(data) {
       var idToShow = 3; //Error
       if (+data.status !== 0) {
