@@ -40,7 +40,7 @@ function checkValidade(value){
 		$( ".et1" ).animate({
 			opacity: 0.0
 		}, 500, function() {
-			showEt(3);
+			showEt(4);
 		});
 	}
 }

@@ -73,7 +73,7 @@ section{
 	min-height: 463px;
 }
 
-.et1, .et2, .et3{
+.et1, .et2, .et, .et4{
 	width: 100%;
 	min-height: 463px;
     background: url("../_imgs/overlay.png") no-repeat bottom left #0d71b8;
@@ -87,6 +87,11 @@ section{
 .et3{
 	background: url("../_imgs/overlay.png") no-repeat bottom left #fe1818;
 	background-size: 130%;
+}
+.et4{
+	background: url("../_imgs/overlay.png") no-repeat bottom left #E7F012;
+	background-size: 130%;
+	color: #000;
 }
 section .et1, section .et2, section .et3{
 	width: 100%;
@@ -167,4 +172,8 @@ textarea {
 
 }
 
-.et3,.et2{display: none;}
+.et2,.et3,.et4{display: none;}
+
+.et4 .titulo, .et4 .text, .et4 .secondary-text{
+	color:#000;
+}
