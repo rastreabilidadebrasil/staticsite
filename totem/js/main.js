@@ -3,9 +3,9 @@ var blockPress = false;
 function submit(value) {
   var anvisaNumber, serialNumber;
   blockPress = true;
-  this.$("#enterDataMatrix").val('');
+  $("#enterDataMatrix").val('');
   value = dataMatrix.parseDataMatrix(value);
-  if (!this.validateRBParsedDataMatrix(value)) {
+  if (!dataMatrix.validateRBParsedDataMatrix(value)) {
     anvisaNumber = parsedDataMatrix["713"];
     serialNumber = parsedDataMatrix["21"];
     $.ajax({
@@ -42,11 +42,11 @@ function checkValidade(e) {
   var keyCode = e.keyCode || e.which;
   e = e || window.event;
   if (keyCode === dataMatrix.DEFAULT_ASCII_SEPARATOR_CODE) {
-    var newVal = this.$("#enterDataMatrix").val() + dataMatrix.DEFAULT_COMMON_SEPARATOR;
-    this.$("#enterDataMatrix").val(newVal);
+    var newVal = $("#enterDataMatrix").val() + dataMatrix.DEFAULT_COMMON_SEPARATOR;
+    $("#enterDataMatrix").val(newVal);
   } else {
     if (keyCode === 13) {
-      submit(this.$("#enterDataMatrix").val());
+      submit($("#enterDataMatrix").val());
     }
   }
 }
