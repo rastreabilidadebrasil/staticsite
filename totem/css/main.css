@@ -103,7 +103,8 @@ footer{
 }
 footer .logo{
 	position: relative;
-	margin-top: 35px;
+	margin-top: 25px;
+	left: 50%;
 }
 footer img.logo {
 	width: 250px;
