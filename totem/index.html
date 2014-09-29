@@ -14,22 +14,22 @@
 		<link rel="stylesheet" type="text/css" href="css/fonts/stylesheet.css" />
 		<link rel="stylesheet" type="text/css" href="css/animate.css" />
 		<link rel="stylesheet" type="text/css" href="css/main.css" />
-		
+
 		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.js"></script>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	</head>
-	
-	<body> 
+
+	<body>
 		<header>
 			<img class="img-et1" src="imgs/logo_rb_consumer.png">
 			<img class="img-et2" src="imgs/logo_rb_consumer-result.png">
 		</header>
 		<section>
-			
+
 			<div class="et1">
 				<div class="content">
-					<textarea  maxlength="2" id="enterDataMatrix"></textarea>
+					<textarea  maxlength="2" id="enterDataMatrix" onkeypress="checkValidade()"></textarea>
 					<div class="text">
 						<!-- CENTRALIZE O DATA MATRIX<br>NO QUADRO BRANCO -->
 						PASSE O MEDICAMENTO NO LEITOR
@@ -50,7 +50,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="et3">
 				<div class="content">
 					<div class="titulo">
@@ -64,7 +64,7 @@
 					</div>
 
 					<div class="secondary-text">
-						Contate o farmacêutico<br>responsável dessa loja. 
+						Contate o farmacêutico<br>responsável dessa loja.
 					</div>
 				</div>
 			</div>
@@ -81,7 +81,7 @@
 					</div>
 
 					<div class="secondary-text">
-						Contate o farmacêutico<br>responsável dessa loja. 
+						Contate o farmacêutico<br>responsável dessa loja.
 					</div>
 				</div>
 			</div>
@@ -91,5 +91,6 @@
 			<img class="logo" src="imgs/logo-rb.png">
 		</footer>
 		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/data_matrix.js"></script>
 	</body>
 </html>
