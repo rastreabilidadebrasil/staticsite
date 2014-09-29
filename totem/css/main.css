@@ -70,12 +70,12 @@ header .img-et2{
 	display: none;
 }
 section{
-	min-height: 463px;
+	min-height: 440px;
 }
 
 .et1, .et2, .et, .et4{
 	width: 100%;
-	min-height: 463px;
+	min-height: 440px;
     background: url("../_imgs/overlay.png") no-repeat bottom left #0d71b8;
     background-size: 130%;
     position: absolute;
@@ -102,9 +102,13 @@ footer{
 	background-color: #FFF;
 }
 footer .logo{
-	float: right;
-	margin-right: 35px;
+	position: relative;
 	margin-top: 35px;
+}
+footer img.logo {
+	width: 250px;
+	height: auto;
+	margin-left: -125px;
 }
 textarea { 
 	resize: none;
@@ -113,13 +117,13 @@ textarea {
 	position: relative;
 	left: 50%;
 	margin-left: -444px;
-	margin-top: 13%;
+	margin-top: 35px;
 	padding: 33px;
 	font-size: 30px;
 	color: #b1b9bc;
 	text-align: center;
 	overflow: hidden;
-	margin-bottom: 30px;
+	
 }
 
 .text {
@@ -131,6 +135,7 @@ textarea {
 .et1 .text {
 	font-family: 'gotham_boldregular';
 	font-size: 20px;
+	padding-top: 40px;
 }
 .et2 .text {
 	font-family: 'gotham_boldregular';
