@@ -4,7 +4,7 @@ function submit(value) {
   var anvisaNumber, serialNumber;
   blockPress = true;
   $("#enterDataMatrix").val('');
-  /*value = dataMatrix.parseDataMatrix(value);
+  value = dataMatrix.parseDataMatrix(value);
   anvisaNumber = value["713"];
   serialNumber = value["21"];
   $.ajax({
@@ -36,11 +36,6 @@ function submit(value) {
         });
       }
     }
-  });*/
-  $(".et1").animate({
-    opacity: 0.0
-  }, 500, function() {
-    showEt(2);
   });
 
 }
