@@ -43,7 +43,7 @@ function submit(value) {
 function checkValidade(e) {
   e = e || window.event;
   var keyCode = e.keyCode || e.which;
-  console.log(keyCode);
+  console.log(keyCode + "_"+String.fromCharCode(keyCode)+"_");
   if (keyCode === dataMatrix.DEFAULT_ASCII_SEPARATOR_CODE) {
     var newVal = $("#enterDataMatrix").val() + dataMatrix.DEFAULT_COMMON_SEPARATOR;
     $("#enterDataMatrix").val(newVal);
