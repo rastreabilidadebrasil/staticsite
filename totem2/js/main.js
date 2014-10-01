@@ -49,6 +49,11 @@ function checkValidade(e) {
     $("#enterDataMatrix").val(newVal);
   } else {
     if (keyCode === 13) {
+      console.log('Codes');
+      var value = $("#enterDataMatrix").val();
+      for(var i=0;i<value.length;i++){
+        console.log(value.charCodeAt(i));
+      }
       submit($("#enterDataMatrix").val());
     }
   }
