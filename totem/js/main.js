@@ -16,9 +16,15 @@ function submit(value) {
       withCredentials: true
     },
     success: function(data) {
-      var idToShow = 3; //Error
+      var idToShow = 3,ium='', formattedDate='',month; //Error
       if (+data.status !== 0) {
         idToShow = 2;
+      }
+      if(data && data.trackableItem){
+        formattedDate = new Date(data.trackableItem.expirationDate);
+        month = formattedDate.getMonth()+1;
+        formattedDate = (month<10?'0'+month:month)+(formattedDate.getFullYear()-2000);
+        ium = data.trackableItem.anvisaNumber + data.trackableItem.serialNumber + formattedDate +data.trackableItem.batchCode;
       }
       $(".et"+idToShow + " .text span").html( data && data.trackableItem && data.trackableItem.id || '');
       $(".et1").animate({
