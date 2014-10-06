@@ -26,7 +26,7 @@ function submit(value) {
         formattedDate = (month<10?'0'+month:month)+(formattedDate.getFullYear()-2000);
         ium = data.trackableItem.anvisaNumber + data.trackableItem.serialNumber + formattedDate +data.trackableItem.batchCode;
       }
-      $(".et"+idToShow + " .text span").html( data && data.trackableItem && data.trackableItem.id || '');
+      $(".et"+idToShow + " .text span").html( ium || '');
       $(".et1").animate({
         opacity: 0.0
       }, 500, function() {
