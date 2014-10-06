@@ -4,10 +4,13 @@ function submit(value) {
   var anvisaNumber, serialNumber;
   blockPress = true;
   $("#enterDataMatrix").val('');
+<<<<<<< HEAD
   if(value.indexOf('}[{-}]{')<0){
     value = value.trim();
     value =value.substring(0,25).trim()+'}[{-}]{'+value.substring(25,value.length-16).trim()+'}[{-}]{' +value.substring(value.length-16,value.length).trim();
   }
+=======
+>>>>>>> FETCH_HEAD
   value = dataMatrix.parseDataMatrix(value);
   anvisaNumber = value["713"];
   serialNumber = value["21"];
@@ -45,13 +48,27 @@ function submit(value) {
 }
 
 function checkValidade(e) {
+<<<<<<< HEAD
   var keyCode = e.keyCode || e.which;
   e = e || window.event;
+=======
+  e = e || window.event;
+  var keyCode = e.keyCode || e.which;
+  console.log(keyCode + "_"+String.fromCharCode(keyCode)+"_");
+>>>>>>> FETCH_HEAD
   if (keyCode === dataMatrix.DEFAULT_ASCII_SEPARATOR_CODE) {
     var newVal = $("#enterDataMatrix").val() + dataMatrix.DEFAULT_COMMON_SEPARATOR;
     $("#enterDataMatrix").val(newVal);
   } else {
     if (keyCode === 13) {
+<<<<<<< HEAD
+=======
+      console.log('Codes');
+      var value = $("#enterDataMatrix").val();
+      for(var i=0;i<value.length;i++){
+        console.log(value.charCodeAt(i));
+      }
+>>>>>>> FETCH_HEAD
       submit($("#enterDataMatrix").val());
     }
   }
