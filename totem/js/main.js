@@ -4,10 +4,6 @@ function submit(value) {
   var anvisaNumber, serialNumber;
   blockPress = true;
   $("#enterDataMatrix").val('');
-  if(value.indexOf('}[{-}]{')<0){
-    value = value.trim();
-    value =value.substring(0,25).trim()+'}[{-}]{'+value.substring(25,value.length-16).trim()+'}[{-}]{' +value.substring(value.length-16,value.length).trim();
-  }
   value = dataMatrix.parseDataMatrix(value);
   anvisaNumber = value["713"];
   serialNumber = value["21"];
@@ -24,6 +20,7 @@ function submit(value) {
       if (+data.status !== 0) {
         idToShow = 2;
       }
+      $(".et"+idToShow + " .text span").html( data && data.trackableItem && data.trackableItem.id || '');
       $(".et1").animate({
         opacity: 0.0
       }, 500, function() {
@@ -45,8 +42,8 @@ function submit(value) {
 }
 
 function checkValidade(e) {
-  e = e || window.event;
   var keyCode = e.keyCode || e.which;
+  e = e || window.event;
   if (keyCode === dataMatrix.DEFAULT_ASCII_SEPARATOR_CODE) {
     var newVal = $("#enterDataMatrix").val() + dataMatrix.DEFAULT_COMMON_SEPARATOR;
     $("#enterDataMatrix").val(newVal);
@@ -75,7 +72,7 @@ function showEt(id) {
           opacity: 1.0
         }, 500);
       });
-    }, 5000);
+    }, 10000);
   });
 }
 
