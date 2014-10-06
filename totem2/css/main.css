@@ -51,7 +51,7 @@ html, body {
 body {
 	background: #f4f4f4;
 	margin:0;
-    padding:0;    
+    padding:0;
 	font-family: 'gotham_bookregular','gotham_boldregular', Arial, sans-serif;
 }
 header {
@@ -112,7 +112,7 @@ footer .logo{
 footer img.logo {
 	margin-left: -125px;
 }
-textarea { 
+textarea {
 	resize: none;
 	width: 888px;
 	height: 141px;
@@ -125,7 +125,7 @@ textarea {
 	color: #b1b9bc;
 	text-align: center;
 	overflow: hidden;
-	
+
 }
 
 .text {
@@ -138,7 +138,7 @@ textarea {
 	/*font-family: 'gotham_boldregular';*/
 	font-size: 20px;
 	padding-top: 40px;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 .et2 .text {
 	/*font-family: 'gotham_boldregular';*/
@@ -180,7 +180,7 @@ textarea {
 .secondary-text{
 	color: #FFF;
 	font-size: 30px;
-	text-align: center;	
+	text-align: center;
 	/*font-family: 'gotham_boldregular';*/
 
 }
@@ -189,4 +189,7 @@ textarea {
 
 .et4 .titulo, .et4 .text, .et4 .secondary-text{
 	color:#000;
+}
+.ium_number{
+  font-size: 34px;
 }
