@@ -4,6 +4,10 @@ function submit(value) {
   var anvisaNumber, serialNumber;
   blockPress = true;
   $("#enterDataMatrix").val('');
+  if(value.indexOf('}[{-}]{')<0){
+    value = value.trim();
+    value =value.substring(0,25).trim()+'}[{-}]{'+value.substring(25,value.length-16).trim()+'}[{-}]{' +value.substring(value.length-16,value.length).trim();
+  }
   value = dataMatrix.parseDataMatrix(value);
   anvisaNumber = value["713"];
   serialNumber = value["21"];
