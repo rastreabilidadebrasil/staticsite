@@ -178,7 +178,7 @@ padding: 50px;
 .row.quem-somos {
 
 background: url(../imgs/bg1.jpg) right top no-repeat;
-
+min-height: 783px;
 }
 
 
