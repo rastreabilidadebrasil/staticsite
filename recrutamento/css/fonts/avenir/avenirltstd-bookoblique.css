@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'AvenirLTStd45BookOblique';
+    src: url('avenirltstd-bookoblique.eot');
+    src: url('avenirltstd-bookoblique.eot') format('embedded-opentype'),
+         url('avenirltstd-bookoblique.woff2') format('woff2'),
+         url('avenirltstd-bookoblique.woff') format('woff'),
+         url('avenirltstd-bookoblique.ttf') format('truetype'),
+         url('avenirltstd-bookoblique.svg#AvenirLTStd45BookOblique') format('svg');
+}

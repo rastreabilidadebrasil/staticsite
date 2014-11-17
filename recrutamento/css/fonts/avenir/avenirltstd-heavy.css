@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'AvenirLTStd85Heavy';
+    src: url('avenirltstd-heavy.eot');
+    src: url('avenirltstd-heavy.eot') format('embedded-opentype'),
+         url('avenirltstd-heavy.woff2') format('woff2'),
+         url('avenirltstd-heavy.woff') format('woff'),
+         url('avenirltstd-heavy.ttf') format('truetype'),
+         url('avenirltstd-heavy.svg#AvenirLTStd85Heavy') format('svg');
+}
