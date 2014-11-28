@@ -9,36 +9,39 @@ function submit(value) {
   serialNumber = value["21"];
   $.ajax({
     type: "GET",
-    url: "http://dashboard.rastreabilidadebrasil.com.br/rest/1/report/medical_item/public/anvisa/" +
+    url: "https://dashboard.rastreabilidadebrasil.com.br/rest/1/report/medical_item/public/anvisa/" +
       anvisaNumber + "/serial/" + serialNumber,
     dataType: 'json',
     xhrFields: {
       withCredentials: true
     },
-    success: function(data) {
-      var idToShow = 3,ium='', formattedDate='',month; //Error
+    success: function (data) {
+      var idToShow = 3,
+        ium = '',
+        formattedDate = '',
+        month; //Error
       if (+data.status !== 0) {
         idToShow = 2;
       }
-      if(data && data.trackableItem){
+      if (data && data.trackableItem) {
         formattedDate = new Date(data.trackableItem.expirationDate);
-        month = formattedDate.getMonth()+1;
-        formattedDate = (month<10?'0'+month:month)+(formattedDate.getFullYear()-2000);
-        ium = data.trackableItem.anvisaNumber + data.trackableItem.serialNumber + formattedDate +data.trackableItem.batchCode;
+        month = formattedDate.getMonth() + 1;
+        formattedDate = (month < 10 ? '0' + month : month) + (formattedDate.getFullYear() - 2000);
+        ium = data.trackableItem.anvisaNumber + data.trackableItem.serialNumber + formattedDate + data.trackableItem.batchCode;
       }
-      $(".et"+idToShow + " .text span").html( ium || '');
+      $(".et" + idToShow + " .text span").html(ium || '');
       $(".et1").animate({
         opacity: 0.0
-      }, 500, function() {
+      }, 500, function () {
         showEt(idToShow);
       });
 
     },
-    error: function(error) {
+    error: function (error) {
       if (+error.status === 404) {
         $(".et1").animate({
           opacity: 0.0
-        }, 500, function() {
+        }, 500, function () {
           showEt(4);
         });
       }
@@ -65,11 +68,11 @@ function showEt(id) {
   $(".et" + id).css("opacity", 0);
   $(".et" + id).animate({
     opacity: 1.0
-  }, 500, function() {
-    setTimeout(function() {
+  }, 500, function () {
+    setTimeout(function () {
       $(".et" + id).animate({
         opacity: 0.0
-      }, 500, function() {
+      }, 500, function () {
         blockPress = false;
         $(".et" + id).css("display", "none");
         $("textarea[maxlength]").val("");
@@ -82,7 +85,6 @@ function showEt(id) {
   });
 }
 
-
-$(document).ready(function() {
+$(document).ready(function () {
   $("textarea[maxlength]").focus();
 });
