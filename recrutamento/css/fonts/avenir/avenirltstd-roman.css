@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'AvenirLTStd55Roman';
-    src: url('avenirltstd-roman.eot');
-    src: url('avenirltstd-roman.eot') format('embedded-opentype'),
-         url('avenirltstd-roman.woff2') format('woff2'),
-         url('avenirltstd-roman.woff') format('woff'),
-         url('avenirltstd-roman.ttf') format('truetype'),
-         url('avenirltstd-roman.svg#AvenirLTStd55Roman') format('svg');
-}

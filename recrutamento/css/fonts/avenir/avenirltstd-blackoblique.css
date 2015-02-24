@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'AvenirLTStd95BlackOblique';
-    src: url('avenirltstd-blackoblique.eot');
-    src: url('avenirltstd-blackoblique.eot') format('embedded-opentype'),
-         url('avenirltstd-blackoblique.woff2') format('woff2'),
-         url('avenirltstd-blackoblique.woff') format('woff'),
-         url('avenirltstd-blackoblique.ttf') format('truetype'),
-         url('avenirltstd-blackoblique.svg#AvenirLTStd95BlackOblique') format('svg');
-}

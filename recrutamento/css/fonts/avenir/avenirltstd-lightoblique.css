@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'AvenirLTStd35LightOblique';
-    src: url('avenirltstd-lightoblique.eot');
-    src: url('avenirltstd-lightoblique.eot') format('embedded-opentype'),
-         url('avenirltstd-lightoblique.woff2') format('woff2'),
-         url('avenirltstd-lightoblique.woff') format('woff'),
-         url('avenirltstd-lightoblique.ttf') format('truetype'),
-         url('avenirltstd-lightoblique.svg#AvenirLTStd35LightOblique') format('svg');
-}

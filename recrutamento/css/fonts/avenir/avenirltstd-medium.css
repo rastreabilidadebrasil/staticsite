@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'AvenirLTStd65Medium';
-    src: url('avenirltstd-medium.eot');
-    src: url('avenirltstd-medium.eot') format('embedded-opentype'),
-         url('avenirltstd-medium.woff2') format('woff2'),
-         url('avenirltstd-medium.woff') format('woff'),
-         url('avenirltstd-medium.ttf') format('truetype'),
-         url('avenirltstd-medium.svg#AvenirLTStd65Medium') format('svg');
-}
