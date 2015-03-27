@@ -6,6 +6,12 @@
 <schema xmlns="http://www.w3.org/2001/XMLSchema"
 	targetNamespace="http://www.rastreabilidadebrasil.com.br/RBTypes" xmlns:rb="http://www.rastreabilidadebrasil.com.br/RBTypes"
 	elementFormDefault="qualified" version="1.0">
+	<simpleType name="NonEmptyString">
+			<restriction base="string">
+				<whiteSpace value="collapse"/>
+				<minLength value="1"/>
+			</restriction>
+	</simpleType>
 	<simpleType name="CNPJ">
 		<annotation>
 				<documentation>Sem pontos e tracos</documentation>
@@ -80,7 +86,7 @@
       <element type="rb:Info" name="Info" minOccurs="0"/>
       <element type="rb:InfoCliente" name="InfoCliente" minOccurs="0"/>
     </sequence>
-		<attribute type="string" name="id" use="required"/>
+		<attribute type="rb:NonEmptyString" name="id" use="required"/>
   </complexType>
   <complexType name="childrenType">
     <sequence>
@@ -106,7 +112,7 @@
       <element type="rb:Info" name="Info" minOccurs="0"/>
       <element type="rb:InfoCliente" name="InfoCliente" minOccurs="0"/>
     </sequence>
-		<attribute type="string" name="id" use="required"/>
+		<attribute type="rb:NonEmptyString" name="id" use="required"/>
   </complexType>
   <complexType name="movimentacaoType">
     <sequence>
@@ -121,7 +127,7 @@
       <element type="rb:Info" name="Info" minOccurs="0"/>
       <element type="rb:InfoCliente" name="InfoCliente" minOccurs="0"/>
     </sequence>
-		<attribute type="string" name="id" use="required"/>
+		<attribute type="rb:NonEmptyString" name="id" use="required"/>
   </complexType>
   <complexType name="agregacaoType">
     <sequence>
@@ -132,7 +138,7 @@
       <element type="rb:Info" name="Info" minOccurs="0"/>
       <element type="rb:InfoCliente" name="InfoCliente" minOccurs="0"/>
     </sequence>
-		<attribute type="string" name="id" use="required"/>
+		<attribute type="rb:NonEmptyString" name="id" use="required"/>
   </complexType>
   <complexType name="eventosType">
     <choice maxOccurs="unbounded" minOccurs="0">
@@ -154,6 +160,6 @@
       <element type="rb:Info" name="Info" minOccurs="0"/>
       <element type="rb:InfoCliente" name="InfoCliente" minOccurs="0"/>
     </sequence>
-		<attribute type="string" name="id" use="required"/>
+		<attribute type="rb:NonEmptyString" name="id" use="required"/>
   </complexType>
 </schema>
