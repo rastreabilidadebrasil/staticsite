@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rb:Eventos xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rb="http://www.rastreabilidadebrasil.com.br/RBTypes" xsi:schemaLocation="http://www.rastreabilidadebrasil.com.br/RBTypes http://www.rastreabilidadebrasil.com.br/xsd/rb.xsd">
 <!-- Eventos devem ser enviados em ordem CRESCENTE de TIMESTAMP -->
-    <rb:Registro>
+    <rb:Registro id="1">
         <rb:Item>
             <rb:GTIN>12345678901234</rb:GTIN>
             <rb:RegistroAnvisa>1234567890123</rb:RegistroAnvisa>
@@ -14,7 +14,7 @@
         <rb:Info>Opcional</rb:Info>
         <rb:InfoCliente>Opcional</rb:InfoCliente>
     </rb:Registro>
-    <rb:Registro>
+    <rb:Registro id="2">
         <rb:Item>
             <rb:GTIN>12345678901234</rb:GTIN>
             <rb:RegistroAnvisa>1234567890123</rb:RegistroAnvisa>
@@ -25,7 +25,7 @@
         <rb:Timestamp>1404828301</rb:Timestamp>
         <rb:Timezone>-3</rb:Timezone>
     </rb:Registro>
-    <rb:Ocorrencia>
+    <rb:Ocorrencia id="3">
         <rb:IdItem>12345678901230000000000001101612345678901234</rb:IdItem>
         <rb:Codigo>1010</rb:Codigo>
         <rb:Timestamp>1404828302</rb:Timestamp>
@@ -33,25 +33,25 @@
         <rb:Info>Info Opcional</rb:Info>
         <rb:InfoCliente>Info cliente Opcional</rb:InfoCliente>
     </rb:Ocorrencia>
-    <rb:Ocorrencia>
+    <rb:Ocorrencia id="4">
         <rb:IdItem>12345678901230000000000001101612345678901234</rb:IdItem>
         <rb:Codigo>1011</rb:Codigo>
         <rb:Timestamp>1404828303</rb:Timestamp>
         <rb:Timezone>-3</rb:Timezone>
     </rb:Ocorrencia>
-    <rb:Ocorrencia>
+    <rb:Ocorrencia id="5">
         <rb:IdItem>12345678901230000000000002101612345678901234</rb:IdItem>
         <rb:Codigo>1010</rb:Codigo>
         <rb:Timestamp>1404828304</rb:Timestamp>
         <rb:Timezone>-3</rb:Timezone>
     </rb:Ocorrencia>
-    <rb:Ocorrencia>
+    <rb:Ocorrencia id="6">
         <rb:IdItem>12345678901230000000000002101612345678901234</rb:IdItem>
         <rb:Codigo>1011</rb:Codigo>
         <rb:Timestamp>1404828305</rb:Timestamp>
         <rb:Timezone>-3</rb:Timezone>
     </rb:Ocorrencia>
-	<rb:Agregacao>
+	<rb:Agregacao id="7">
         <rb:IdParent>999999999999999999</rb:IdParent>
             <rb:Itens>
                 <rb:IdItem>12345678901230000000000001101612345678901234</rb:IdItem>
@@ -62,7 +62,7 @@
         <rb:Info>Info Opcional</rb:Info>
         <rb:InfoCliente>Info cliente Opcional</rb:InfoCliente>
     </rb:Agregacao>
-    <rb:Movimentacao>
+    <rb:Movimentacao id="8">
         <rb:IdItem>999999999999999999</rb:IdItem>
         <rb:Codigo>2014</rb:Codigo> <!-- Exemplo de checkout (saida) -->
         <rb:CNPJOrigem>40942461000106</rb:CNPJOrigem><!-- Sem pontos e tracos -->
@@ -74,7 +74,7 @@
         <rb:Info>Info Opcional</rb:Info>
         <rb:InfoCliente>Info cliente Opcional</rb:InfoCliente>
     </rb:Movimentacao>
-    <rb:Movimentacao>
+    <rb:Movimentacao id="9">
         <rb:IdItem>999999999999999999</rb:IdItem>
         <rb:Codigo>2015</rb:Codigo> <!-- Exemplo de checkin (entrada) -->
         <rb:CNPJOrigem>36756394000150</rb:CNPJOrigem><!-- Sem pontos e tracos -->
@@ -86,7 +86,7 @@
         <rb:Info>Info Opcional</rb:Info>
         <rb:InfoCliente>Info cliente Opcional</rb:InfoCliente>
     </rb:Movimentacao>
-    <rb:Cancelamento>
+    <rb:Cancelamento id="10">
         <rb:IdItem>999999999999999999</rb:IdItem>
         <rb:Codigo>2015</rb:Codigo>
         <rb:Timestamp>1404828510</rb:Timestamp>
