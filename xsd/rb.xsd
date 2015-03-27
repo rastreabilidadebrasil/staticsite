@@ -75,6 +75,7 @@
       <element type="rb:Info" name="Info" minOccurs="0"/>
       <element type="rb:InfoCliente" name="InfoCliente" minOccurs="0"/>
     </sequence>
+		<attribute type="string" name="id"/>
   </complexType>
   <complexType name="childrenType">
     <sequence>
@@ -100,6 +101,7 @@
       <element type="rb:Info" name="Info" minOccurs="0"/>
       <element type="rb:InfoCliente" name="InfoCliente" minOccurs="0"/>
     </sequence>
+		<attribute type="string" name="id"/>
   </complexType>
   <complexType name="movimentacaoType">
     <sequence>
@@ -114,6 +116,7 @@
       <element type="rb:Info" name="Info" minOccurs="0"/>
       <element type="rb:InfoCliente" name="InfoCliente" minOccurs="0"/>
     </sequence>
+		<attribute type="string" name="id"/>
   </complexType>
   <complexType name="agregacaoType">
     <sequence>
@@ -124,6 +127,7 @@
       <element type="rb:Info" name="Info" minOccurs="0"/>
       <element type="rb:InfoCliente" name="InfoCliente" minOccurs="0"/>
     </sequence>
+		<attribute type="string" name="id"/>
   </complexType>
   <complexType name="eventosType">
     <choice maxOccurs="unbounded" minOccurs="0">
@@ -145,5 +149,6 @@
       <element type="rb:Info" name="Info" minOccurs="0"/>
       <element type="rb:InfoCliente" name="InfoCliente" minOccurs="0"/>
     </sequence>
+		<attribute type="string" name="id"/>
   </complexType>
 </schema>
