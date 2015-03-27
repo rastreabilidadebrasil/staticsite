@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rb:Eventos xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rb="http://www.rastrebilidadebrasil.com.br/RBTypes" xsi:schemaLocation="http://www.rastrebilidadebrasil.com.br/RBTypes http://www.rastrebilidadebrasil.com.br/xsd/rb.xsd">
+<rb:Eventos xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rb="http://www.rastreabilidadebrasil.com.br/RBTypes" xsi:schemaLocation="http://www.rastreabilidadebrasil.com.br/RBTypes http://www.rastreabilidadebrasil.com.br/xsd/rb.xsd">
 <!-- Eventos devem ser enviados em ordem CRESCENTE de TIMESTAMP -->
     <rb:Registro>
         <rb:Item>

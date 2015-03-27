@@ -4,7 +4,7 @@
 @Data: 2014-06-01
   -->
 <schema xmlns="http://www.w3.org/2001/XMLSchema"
-	targetNamespace="http://www.rastrebilidadebrasil.com.br/RBTypes" xmlns:rb="http://www.rastrebilidadebrasil.com.br/RBTypes"
+	targetNamespace="http://www.rastreabilidadebrasil.com.br/RBTypes" xmlns:rb="http://www.rastreabilidadebrasil.com.br/RBTypes"
 	elementFormDefault="qualified" version="1.0">
 	<simpleType name="CNPJ">
 		<annotation>
