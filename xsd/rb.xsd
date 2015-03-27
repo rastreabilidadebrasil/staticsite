@@ -64,7 +64,12 @@
 					<maxLength value="512" />
 			</restriction>
 	</simpleType>
-    <element name="Eventos" type="rb:eventosType"/>
+    <element name="Eventos" type="rb:eventosType">
+	    <unique name="unique-id">
+	    	<selector xpath="*"/>
+	    	<field xpath="@id"/>
+	   	</unique>
+    </element>
   <complexType name="ocorrenciaType">
     <sequence>
       <element type="string" name="IdItem"/>
