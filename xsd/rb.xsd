@@ -116,7 +116,7 @@
     <sequence>
       <element type="string" name="IdItem"/>
       <element type="rb:Codigo" name="Codigo"/>
-      <element type="string" name="idOcorrenciaCancelada" minOccurs="0"/><!-- caso nao seja informado, sera cancelado o ultimo evento com este codigo -->
+      <element type="string" name="IdOcorrenciaCancelada" minOccurs="0"/><!-- caso nao seja informado, sera cancelado o ultimo evento com este codigo -->
       <element type="integer" name="Timestamp"/>
       <element type="integer" name="Timezone"/>
       <element type="rb:Latitude" name="Latitude" minOccurs="0"/>
