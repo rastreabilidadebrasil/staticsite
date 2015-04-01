@@ -30,6 +30,8 @@
         <rb:Codigo>1010</rb:Codigo>
         <rb:Timestamp>1404828302</rb:Timestamp>
         <rb:Timezone>-3</rb:Timezone>
+	<rb:Latitude>0.0</rb:Latitude><!—opcional—>
+	<rb:Longitude>0.0<rb:Longitude><!—opcional—>
         <rb:Info>Info Opcional</rb:Info>
         <rb:InfoCliente>Info cliente Opcional</rb:InfoCliente>
     </rb:Ocorrencia>

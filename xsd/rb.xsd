@@ -25,6 +25,14 @@
 			<restriction base="int">
 			</restriction>
 	</simpleType>
+	<simpleType name="Latitude">
+			<restriction base="decimal">
+			</restriction>
+	</simpleType>
+	<simpleType name="Longitude">
+			<restriction base="decimal">
+			</restriction>
+	</simpleType>
 	<simpleType name="RegistroAnvisa">
 			<restriction base="string">
 					<pattern value="[1]{1}[0-9]{12}"/>
@@ -83,6 +91,8 @@
       <element type="string" name="NotaFiscal"  minOccurs="0"/>
       <element type="integer" name="Timestamp"/>
       <element type="integer" name="Timezone"/>
+      <element type="rb:Latitude" name="Latitude" minOccurs="0"/>
+      <element type="rb:Longitude" name="Longitude" minOccurs="0"/>
       <element type="rb:Info" name="Info" minOccurs="0"/>
       <element type="rb:InfoCliente" name="InfoCliente" minOccurs="0"/>
     </sequence>
@@ -109,6 +119,8 @@
       <element type="string" name="idOcorrenciaCancelada" minOccurs="0"/><!-- caso nao seja informado, sera cancelado o ultimo evento com este codigo -->
       <element type="integer" name="Timestamp"/>
       <element type="integer" name="Timezone"/>
+      <element type="rb:Latitude" name="Latitude" minOccurs="0"/>
+      <element type="rb:Longitude" name="Longitude" minOccurs="0"/>
       <element type="rb:Info" name="Info" minOccurs="0"/>
       <element type="rb:InfoCliente" name="InfoCliente" minOccurs="0"/>
     </sequence>
@@ -124,6 +136,8 @@
       <element type="string" name="NotaFiscal"/>
       <element type="integer" name="Timestamp"/>
       <element type="integer" name="Timezone"/>
+      <element type="rb:Latitude" name="Latitude" minOccurs="0"/>
+      <element type="rb:Longitude" name="Longitude" minOccurs="0"/>
       <element type="rb:Info" name="Info" minOccurs="0"/>
       <element type="rb:InfoCliente" name="InfoCliente" minOccurs="0"/>
     </sequence>
@@ -135,6 +149,8 @@
       <element type="rb:childrenType" name="Itens" maxOccurs="unbounded" minOccurs="1"/>
       <element type="integer" name="Timestamp"/>
       <element type="integer" name="Timezone"/>
+      <element type="rb:Latitude" name="Latitude" minOccurs="0"/>
+      <element type="rb:Longitude" name="Longitude" minOccurs="0"/>
       <element type="rb:Info" name="Info" minOccurs="0"/>
       <element type="rb:InfoCliente" name="InfoCliente" minOccurs="0"/>
     </sequence>
@@ -157,6 +173,8 @@
       <element type="rb:itemType" name="Item"/>
       <element type="integer" name="Timestamp"/>
       <element type="integer" name="Timezone"/>
+      <element type="rb:Latitude" name="Latitude" minOccurs="0"/>
+      <element type="rb:Longitude" name="Longitude" minOccurs="0"/>
       <element type="rb:Info" name="Info" minOccurs="0"/>
       <element type="rb:InfoCliente" name="InfoCliente" minOccurs="0"/>
     </sequence>
