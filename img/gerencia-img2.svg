@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" height="680px" viewBox="0 0 570 680" width="570px" version="1.1" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 570 680">
+<rect y="178.39" x="263.17" height="90.655" width="214.7" fill="#0D76BD"/>
+<path d="m311.72 221.87c7.398 0 11.641-3.942 11.641-9.763v-0.199c0-6.504-4.537-9.862-11.936-9.862h-15.09v19.824h15.39zm-30.56-33.53h31.552c8.78 0 15.584 2.466 20.117 7.002 3.85 3.845 5.922 9.267 5.922 15.783v0.194c0 11.143-6.016 18.142-14.795 21.398l16.863 24.656h-17.751l-14.795-22.091h-11.932v22.091h-15.181v-69.03z" fill="#fff"/>
+<path d="m377.3 205.6v-0.192c0-3.945-2.66-6.417-6.508-6.417-4.044 0-6.707 2.863-6.707 7.004v0.202c0 3.057 1.185 5.324 4.044 8.579 6.02-2.27 9.18-4.83 9.18-9.17m-0.79 36.38l-13.212-13.412c-4.539 2.371-6.413 5.721-6.413 9.072v0.198c0 4.834 4.046 8.088 9.663 8.088 3.45 0 6.8-1.48 9.96-3.95m8.48 8.68c-5.621 4.635-12.226 7.694-20.214 7.694-13.215 0-23.173-7.694-23.173-19.921v-0.194c0-8.78 4.727-14.994 13.408-18.935-3.354-4.734-4.832-9.077-4.832-13.811v-0.192c0-9.468 7.597-18.147 20.909-18.147 11.731 0 19.425 7.69 19.425 17.358v0.199c0 9.269-5.914 14.689-14.495 18.045l9.17 9.165c2.27-3.543 4.534-7.589 6.706-11.829l11.146 6.114c-2.663 4.83-5.624 9.961-9.074 14.595l10.16 10.158-11.147 7.788-8-8.09z" fill="#A7A9AC"/>
+<path d="m442.08 244.06c6.707 0 10.752-2.373 10.752-7.495v-0.198c0-4.638-3.456-7.501-11.243-7.501h-17.557v15.193h18.05zm-4.05-27.81c6.706 0 10.948-2.173 10.948-7.297v-0.199c0-4.539-3.549-7.1-9.962-7.1h-14.991v14.596h14zm-28.79-27.91h32.052c7.888 0 14.102 2.169 18.044 6.115 3.158 3.154 4.737 7.004 4.737 11.736v0.194c0 7.791-4.146 12.129-9.076 14.894 7.988 3.058 12.922 7.691 12.922 16.963v0.194c0 12.622-10.255 18.937-25.841 18.937h-32.838v-69.03z" fill="#fff"/>
+<rect y="268.25" x="263.18" height="90.652" width="298.99" fill="#A7A9AC"/>
+<path d="m285.97 298.52c2.937 0 5.032-1.509 5.032-4.029v-0.054c0-2.404-1.843-3.862-5.01-3.862h-6.043v7.946h6.02zm-8.23-9.99h8.418c2.405 0 4.339 0.726 5.57 1.954 0.949 0.955 1.512 2.326 1.512 3.865v0.059c0 3.243-2.241 5.142-5.317 5.706l6.016 7.997h-2.714l-5.684-7.608h-5.595v7.608h-2.206v-19.58z" fill="#fff"/>
+<path d="m310.67 300.95l-4.448-9.985-4.477 9.985h8.93zm-5.46-12.55h2.066l8.925 19.718h-2.376l-2.292-5.173h-10.658l-2.323 5.173h-2.265l8.93-19.72z" fill="#fff"/>
+<path d="m318.39 305.26l1.374-1.623c2.041 1.848 3.998 2.771 6.711 2.771 2.632 0 4.369-1.401 4.369-3.329v-0.058c0-1.815-0.982-2.847-5.092-3.721-4.501-0.98-6.571-2.433-6.571-5.653v-0.057c0-3.074 2.711-5.338 6.431-5.338 2.858 0 4.896 0.81 6.884 2.407l-1.291 1.706c-1.817-1.485-3.635-2.124-5.65-2.124-2.543 0-4.164 1.396-4.164 3.161v0.051c0 1.853 1.004 2.884 5.313 3.807 4.362 0.952 6.38 2.544 6.38 5.54v0.056c0 3.355-2.803 5.54-6.691 5.54-3.1-0.01-5.65-1.05-8-3.15" fill="#fff"/>
+<polygon points="342.34 290.58 335.77 290.58 335.77 288.54 351.16 288.54 351.16 290.58 344.59 290.58 344.59 308.12 342.34 308.12" fill="#fff"/>
+<path d="m363.52 298.52c2.939 0 5.035-1.509 5.035-4.029v-0.054c0-2.404-1.846-3.862-5.004-3.862h-6.044v7.946h6zm-8.22-9.99h8.419c2.411 0 4.337 0.726 5.569 1.954 0.952 0.955 1.514 2.326 1.514 3.865v0.059c0 3.243-2.241 5.142-5.317 5.706l6.015 7.997h-2.713l-5.678-7.608h-5.596v7.608h-2.213v-19.58z" fill="#fff"/>
+<polygon points="375.53 288.53 389.69 288.53 389.69 290.55 377.74 290.55 377.74 297.23 388.42 297.23 388.42 299.25 377.74 299.25 377.74 306.1 389.82 306.1 389.82 308.11 375.53 308.11" fill="#fff"/>
+<path d="m406.97 300.95l-4.445-9.985-4.478 9.985h8.93zm-5.45-12.55h2.065l8.926 19.718h-2.374l-2.296-5.173h-10.658l-2.324 5.173h-2.262l8.92-19.72z" fill="#fff"/>
+<path d="m425.14 306.13c2.964 0 4.807-1.321 4.807-3.5v-0.058c0-2.126-1.787-3.354-5.204-3.354h-6.181v6.913h6.57zm-0.79-8.87c2.652 0 4.499-1.205 4.499-3.496v-0.059c0-1.928-1.535-3.189-4.332-3.189h-5.961v6.743h5.79zm-7.97-8.73h8.334c2.237 0 4 0.639 5.119 1.736 0.808 0.835 1.257 1.872 1.257 3.132v0.051c0 2.55-1.567 3.863-3.102 4.537 2.321 0.698 4.193 2.041 4.193 4.726v0.053c0 3.363-2.823 5.345-7.104 5.345h-8.697v-19.59z" fill="#fff"/>
+<rect y="288.54" x="436.77" height="19.58" width="2.209" fill="#fff"/>
+<polygon points="444.72 288.53 446.93 288.53 446.93 306.08 457.95 306.08 457.95 308.11 444.72 308.11" fill="#fff"/>
+<rect y="288.54" x="462.23" height="19.58" width="2.212" fill="#fff"/>
+<path d="m476.97 306.08c4.95 0 8.117-3.36 8.117-7.694v-0.059c0-4.335-3.167-7.749-8.117-7.749h-4.592v15.502h4.59zm-6.79-17.55h6.795c6.156 0 10.405 4.223 10.405 9.738v0.051c0 5.51-4.249 9.791-10.405 9.791h-6.795v-19.58z" fill="#fff"/>
+<path d="m503.48 300.95l-4.453-9.985-4.475 9.985h8.92zm-5.46-12.55h2.068l8.925 19.718h-2.378l-2.289-5.173h-10.658l-2.324 5.173h-2.265l8.92-19.72z" fill="#fff"/>
+<path d="m519.68 306.08c4.948 0 8.111-3.36 8.111-7.694v-0.059c0-4.335-3.163-7.749-8.111-7.749h-4.59v15.502h4.59zm-6.8-17.55h6.802c6.146 0 10.402 4.223 10.402 9.738v0.051c0 5.51-4.257 9.791-10.402 9.791h-6.802v-19.58z" fill="#fff"/>
+<polygon points="534.76 288.53 548.91 288.53 548.91 290.55 536.96 290.55 536.96 297.23 547.65 297.23 547.65 299.25 536.96 299.25 536.96 306.1 549.06 306.1 549.06 308.11 534.76 308.11" fill="#fff"/>
+<path d="m286.5 335.08c2.965 0 4.811-1.315 4.811-3.496v-0.056c0-2.128-1.792-3.356-5.207-3.356h-6.178v6.908h6.58zm-0.79-8.87c2.661 0 4.508-1.206 4.508-3.499v-0.053c0-1.933-1.539-3.193-4.337-3.193h-5.956v6.745h5.79zm-7.97-8.73h8.338c2.234 0 3.995 0.641 5.119 1.734 0.808 0.837 1.255 1.874 1.255 3.13v0.056c0 2.548-1.565 3.863-3.103 4.532 2.322 0.702 4.196 2.043 4.196 4.73v0.057c0 3.355-2.827 5.341-7.107 5.341h-8.698v-19.58z" fill="#fff"/>
+<path d="m306.16 327.47c2.936 0 5.039-1.51 5.039-4.029v-0.054c0-2.4-1.849-3.861-5.007-3.861h-6.045v7.944h6.02zm-8.22-9.99h8.419c2.405 0 4.337 0.728 5.567 1.956 0.952 0.955 1.513 2.324 1.513 3.858v0.059c0 3.243-2.238 5.148-5.32 5.705l6.019 8.002h-2.713l-5.68-7.606h-5.596v7.606h-2.209v-19.58z" fill="#fff"/>
+<path d="m330.87 329.9l-4.453-9.992-4.472 9.992h8.92zm-5.46-12.56h2.07l8.925 19.723h-2.381l-2.292-5.179h-10.661l-2.319 5.179h-2.265l8.93-19.72z" fill="#fff"/>
+<path d="m338.6 334.21l1.368-1.619c2.043 1.848 4.002 2.765 6.717 2.765 2.626 0 4.36-1.393 4.36-3.325v-0.059c0-1.817-0.976-2.854-5.085-3.723-4.508-0.977-6.574-2.431-6.574-5.649v-0.056c0-3.079 2.712-5.344 6.434-5.344 2.852 0 4.896 0.81 6.881 2.411l-1.29 1.701c-1.815-1.483-3.633-2.122-5.651-2.122-2.544 0-4.168 1.396-4.168 3.156v0.056c0 1.846 1.007 2.882 5.313 3.807 4.367 0.949 6.38 2.545 6.38 5.538v0.056c0 3.357-2.798 5.538-6.686 5.538-3.1-0.03-5.65-1.06-7.99-3.16" fill="#fff"/>
+<rect y="317.48" x="357.98" height="19.581" width="2.209" fill="#fff"/>
+<polygon points="365.93 317.48 368.14 317.48 368.14 335.02 379.16 335.02 379.16 337.06 365.93 337.06" fill="#fff"/>
+<g opacity=".1">
+		<defs>
+			<rect id="SVGID_1_" y="39.53" x="155.88" height="72.451" width="117.78"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use overflow="visible" xlink:href="#SVGID_1_"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_2_)">
+			<defs>
+				<rect id="SVGID_3_" y="39.53" x="155.88" height="72.451" width="117.78"/>
+			</defs>
+			<clipPath id="SVGID_4_">
+				<use overflow="visible" xlink:href="#SVGID_3_"/>
+			</clipPath>
+			<defs>
+				<filter id="Adobe_OpacityMaskFilter" height="72.451" width="117.78" y="39.53" x="155.88" filterUnits="userSpaceOnUse">
+					<feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0" type="matrix"/>
+				</filter>
+			</defs>
+			<mask id="SVGID_5_" height="72.451" width="117.781" y="39.53" x="155.88" maskUnits="userSpaceOnUse">
+				<g filter="url(#Adobe_OpacityMaskFilter)">
+					<rect y="39.53" x="155.88" height="72.453" width="117.78" clip-path="url(#SVGID_4_)"/>
+					<g enable-background="new    ">
+							<linearGradient id="SVGID_6_" y2="489.06" gradientUnits="userSpaceOnUse" x2="-6.5154" gradientTransform="matrix(0 16.349 -16.349 0 8210.4 220.16)" y1="489.06" x1="-8.6743">
+							<stop stop-color="#fff" offset="0"/>
+							<stop offset=".9139"/>
+							<stop offset=".926"/>
+							<stop offset="1"/>
+						</linearGradient>
+						<rect clip-path="url(#SVGID_4_)" height="72.454" width="117.78" y="39.53" x="155.88" fill="url(#SVGID_6_)"/>
+					</g>
+				</g>
+			</mask>
+			<g mask="url(#SVGID_5_)" clip-path="url(#SVGID_4_)">
+					<defs>
+						<rect id="SVGID_7_" y="39.53" x="155.88" height="72.451" width="117.78"/>
+					</defs>
+					<clipPath id="SVGID_8_">
+						<use overflow="visible" xlink:href="#SVGID_7_"/>
+					</clipPath>
+					<g clip-path="url(#SVGID_8_)">
+						<defs>
+							<rect id="SVGID_9_" y="39.53" x="155.88" height="72.451" width="117.78"/>
+						</defs>
+						<clipPath id="SVGID_10_">
+							<use overflow="visible" xlink:href="#SVGID_9_"/>
+						</clipPath>
+						<polygon points="207.06 41.688 158.04 73.433 196.85 109.73 271.5 109.82" clip-path="url(#SVGID_10_)"/>
+					</g>
+			</g>
+		</g>
+</g>
+<g opacity=".1">
+		<defs>
+			<rect id="SVGID_11_" y="65.968" width="74.987" height="27.42"/>
+		</defs>
+		<clipPath id="SVGID_12_">
+			<use overflow="visible" xlink:href="#SVGID_11_"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_12_)">
+			<defs>
+				<rect id="SVGID_13_" y="65.968" width="74.987" height="27.42"/>
+			</defs>
+			<clipPath id="SVGID_14_">
+				<use overflow="visible" xlink:href="#SVGID_13_"/>
+			</clipPath>
+			<defs>
+				<filter id="Adobe_OpacityMaskFilter_1_" height="27.42" width="74.987" y="65.968" x="0" filterUnits="userSpaceOnUse">
+					<feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0" type="matrix"/>
+				</filter>
+			</defs>
+			<mask id="SVGID_15_" height="27.42" width="74.987" y="65.968" x="0" maskUnits="userSpaceOnUse">
+				<g filter="url(#Adobe_OpacityMaskFilter_1_)">
+					<rect y="65.968" width="74.987" height="27.42" clip-path="url(#SVGID_14_)"/>
+					<g enable-background="new    ">
+							<linearGradient id="SVGID_16_" y2="494.77" gradientUnits="userSpaceOnUse" x2="-7.8973" gradientTransform="matrix(0 14.951 -14.951 0 7434.6 212.8)" y1="494.77" x1="-10.057">
+							<stop stop-color="#fff" offset="0"/>
+							<stop offset=".9139"/>
+							<stop offset=".926"/>
+							<stop offset="1"/>
+						</linearGradient>
+						<rect y="65.969" width="74.987" height="27.419" fill="url(#SVGID_16_)" clip-path="url(#SVGID_14_)"/>
+					</g>
+				</g>
+			</mask>
+			<g mask="url(#SVGID_15_)" clip-path="url(#SVGID_14_)">
+					<defs>
+						<rect id="SVGID_17_" y="65.968" width="74.987" height="27.42"/>
+					</defs>
+					<clipPath id="SVGID_18_">
+						<use overflow="visible" xlink:href="#SVGID_17_"/>
+					</clipPath>
+					<g clip-path="url(#SVGID_18_)">
+						<defs>
+							<rect id="SVGID_19_" y="65.968" width="74.987" height="27.42"/>
+						</defs>
+						<clipPath id="SVGID_20_">
+							<use overflow="visible" xlink:href="#SVGID_19_"/>
+						</clipPath>
+						<polygon points="40.087 68.21 2.16 68.126 28.231 91.146 72.827 91.23" clip-path="url(#SVGID_20_)"/>
+					</g>
+			</g>
+		</g>
+</g>
+<g opacity=".1">
+		<defs>
+			<rect id="SVGID_21_" y="90.285" x="42.688" height="28.899" width="79.502"/>
+		</defs>
+		<clipPath id="SVGID_22_">
+			<use overflow="visible" xlink:href="#SVGID_21_"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_22_)">
+			<defs>
+				<rect id="SVGID_23_" y="90.285" x="42.688" height="28.899" width="79.502"/>
+			</defs>
+			<clipPath id="SVGID_24_">
+				<use overflow="visible" xlink:href="#SVGID_23_"/>
+			</clipPath>
+			<defs>
+				<filter id="Adobe_OpacityMaskFilter_2_" height="28.899" width="79.502" y="90.285" x="42.688" filterUnits="userSpaceOnUse">
+					<feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0" type="matrix"/>
+				</filter>
+			</defs>
+			<mask id="SVGID_25_" height="28.899" width="79.502" y="90.285" x="42.688" maskUnits="userSpaceOnUse">
+				<g filter="url(#Adobe_OpacityMaskFilter_2_)">
+					<rect y="90.285" x="42.688" height="28.901" width="79.5" clip-path="url(#SVGID_24_)"/>
+					<g enable-background="new    ">
+							<linearGradient id="SVGID_26_" y2="493.33" gradientUnits="userSpaceOnUse" x2="-6.4842" gradientTransform="matrix(0 15.906 -15.906 0 7929.5 223.91)" y1="493.33" x1="-8.6426">
+							<stop stop-color="#fff" offset="0"/>
+							<stop offset=".9139"/>
+							<stop offset=".926"/>
+							<stop offset="1"/>
+						</linearGradient>
+						<rect clip-path="url(#SVGID_24_)" height="28.901" width="79.5" y="90.285" x="42.688" fill="url(#SVGID_26_)"/>
+					</g>
+				</g>
+			</mask>
+			<g mask="url(#SVGID_25_)" clip-path="url(#SVGID_24_)">
+					<defs>
+						<rect id="SVGID_27_" y="90.285" x="42.688" height="28.899" width="79.502"/>
+					</defs>
+					<clipPath id="SVGID_28_">
+						<use overflow="visible" xlink:href="#SVGID_27_"/>
+					</clipPath>
+					<g clip-path="url(#SVGID_28_)">
+						<defs>
+							<rect id="SVGID_29_" y="90.285" x="42.688" height="28.899" width="79.502"/>
+						</defs>
+						<clipPath id="SVGID_30_">
+							<use overflow="visible" xlink:href="#SVGID_29_"/>
+						</clipPath>
+						<polygon points="85.199 92.534 44.847 92.446 72.585 116.94 120.03 117.02" clip-path="url(#SVGID_30_)"/>
+					</g>
+			</g>
+		</g>
+</g>
+<g opacity=".1">
+		<defs>
+			<rect id="SVGID_31_" y="111.69" x="82.345" height="28.896" width="74.987"/>
+		</defs>
+		<clipPath id="SVGID_32_">
+			<use overflow="visible" xlink:href="#SVGID_31_"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_32_)">
+			<defs>
+				<rect id="SVGID_33_" y="111.69" x="82.345" height="28.896" width="74.987"/>
+			</defs>
+			<clipPath id="SVGID_34_">
+				<use overflow="visible" xlink:href="#SVGID_33_"/>
+			</clipPath>
+			<defs>
+				<filter id="Adobe_OpacityMaskFilter_3_" height="28.896" width="74.987" y="111.69" x="82.345" filterUnits="userSpaceOnUse">
+					<feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0" type="matrix"/>
+				</filter>
+			</defs>
+			<mask id="SVGID_35_" height="28.896" width="74.987" y="111.686" x="82.345" maskUnits="userSpaceOnUse">
+				<g filter="url(#Adobe_OpacityMaskFilter_3_)">
+					<rect y="111.69" x="82.345" height="28.896" width="74.985" clip-path="url(#SVGID_34_)"/>
+					<g enable-background="new    ">
+							<linearGradient id="SVGID_36_" y2="492.07" gradientUnits="userSpaceOnUse" x2="-5.7625" gradientTransform="matrix(0 15.906 -15.906 0 7946.8 233.81)" y1="492.07" x1="-7.9209">
+							<stop stop-color="#fff" offset="0"/>
+							<stop offset=".9139"/>
+							<stop offset=".926"/>
+							<stop offset="1"/>
+						</linearGradient>
+						<rect clip-path="url(#SVGID_34_)" height="28.896" width="74.985" y="111.69" x="82.347" fill="url(#SVGID_36_)"/>
+					</g>
+				</g>
+			</mask>
+			<g mask="url(#SVGID_35_)" clip-path="url(#SVGID_34_)">
+					<defs>
+						<rect id="SVGID_37_" y="111.69" x="82.345" height="28.896" width="74.987"/>
+					</defs>
+					<clipPath id="SVGID_38_">
+						<use overflow="visible" xlink:href="#SVGID_37_"/>
+					</clipPath>
+					<g clip-path="url(#SVGID_38_)">
+						<defs>
+							<rect id="SVGID_39_" y="111.69" x="82.345" height="28.896" width="74.987"/>
+						</defs>
+						<clipPath id="SVGID_40_">
+							<use overflow="visible" xlink:href="#SVGID_39_"/>
+						</clipPath>
+						<polygon points="122.43 113.93 84.505 113.84 110.58 138.33 155.17 138.42" clip-path="url(#SVGID_40_)"/>
+					</g>
+			</g>
+		</g>
+</g>
+<g opacity=".3">
+		<defs>
+			<rect id="SVGID_41_" y="205.32" x="91.324" height="31.211" width="73.72"/>
+		</defs>
+		<clipPath id="SVGID_42_">
+			<use overflow="visible" xlink:href="#SVGID_41_"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_42_)">
+			<defs>
+				<rect id="SVGID_43_" y="205.32" x="91.324" height="31.211" width="73.72"/>
+			</defs>
+			<clipPath id="SVGID_44_">
+				<use overflow="visible" xlink:href="#SVGID_43_"/>
+			</clipPath>
+			<defs>
+				<filter id="Adobe_OpacityMaskFilter_4_" height="31.211" width="73.72" y="205.32" x="91.324" filterUnits="userSpaceOnUse">
+					<feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0" type="matrix"/>
+				</filter>
+			</defs>
+			<mask id="SVGID_45_" height="31.211" width="73.72" y="205.322" x="91.324" maskUnits="userSpaceOnUse">
+				<g filter="url(#Adobe_OpacityMaskFilter_4_)">
+					<rect y="205.32" x="91.324" height="31.211" width="73.722" clip-path="url(#SVGID_44_)"/>
+					<g enable-background="new    ">
+							<linearGradient id="SVGID_46_" y2="491.79" gradientUnits="userSpaceOnUse" x2="-2.524" gradientTransform="matrix(0 15.906 -15.906 0 7950.7 278.26)" y1="491.79" x1="-4.6836">
+							<stop stop-color="#fff" offset="0"/>
+							<stop offset=".9139"/>
+							<stop offset=".926"/>
+							<stop offset="1"/>
+						</linearGradient>
+						<rect clip-path="url(#SVGID_44_)" height="31.211" width="73.722" y="205.32" x="91.322" fill="url(#SVGID_46_)"/>
+					</g>
+				</g>
+			</mask>
+			<g mask="url(#SVGID_45_)" clip-path="url(#SVGID_44_)">
+					<defs>
+						<rect id="SVGID_47_" y="205.32" x="91.324" height="31.211" width="73.72"/>
+					</defs>
+					<clipPath id="SVGID_48_">
+						<use overflow="visible" xlink:href="#SVGID_47_"/>
+					</clipPath>
+					<g clip-path="url(#SVGID_48_)">
+						<defs>
+							<rect id="SVGID_49_" y="205.32" x="91.324" height="31.211" width="73.72"/>
+						</defs>
+						<clipPath id="SVGID_50_">
+							<use overflow="visible" xlink:href="#SVGID_49_"/>
+						</clipPath>
+						<polygon points="126.97 207.48 93.483 210.56 118.29 234.28 162.88 234.37" clip-path="url(#SVGID_50_)"/>
+					</g>
+			</g>
+		</g>
+</g>
+<g opacity=".1">
+		<defs>
+			<rect id="SVGID_51_" y="246.63" x="48.473" height="80.508" width="141.3"/>
+		</defs>
+		<clipPath id="SVGID_52_">
+			<use overflow="visible" xlink:href="#SVGID_51_"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_52_)">
+			<defs>
+				<rect id="SVGID_53_" y="246.63" x="48.473" height="80.508" width="141.3"/>
+			</defs>
+			<clipPath id="SVGID_54_">
+				<use overflow="visible" xlink:href="#SVGID_53_"/>
+			</clipPath>
+			<defs>
+				<filter id="Adobe_OpacityMaskFilter_5_" height="80.508" width="141.3" y="246.63" x="48.473" filterUnits="userSpaceOnUse">
+					<feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0" type="matrix"/>
+				</filter>
+			</defs>
+			<mask id="SVGID_55_" height="80.508" width="141.301" y="246.633" x="48.473" maskUnits="userSpaceOnUse">
+				<g filter="url(#Adobe_OpacityMaskFilter_5_)">
+					<rect y="246.63" x="48.473" height="80.508" width="141.3" clip-path="url(#SVGID_54_)"/>
+					<g enable-background="new    ">
+							<linearGradient id="SVGID_56_" y2="492.09" gradientUnits="userSpaceOnUse" x2=".5341" gradientTransform="matrix(0 15.906 -15.906 0 7946.4 320.23)" y1="492.09" x1="-1.625">
+							<stop stop-color="#fff" offset="0"/>
+							<stop offset=".9139"/>
+							<stop offset=".926"/>
+							<stop offset="1"/>
+						</linearGradient>
+						<rect clip-path="url(#SVGID_54_)" height="80.508" width="141.3" y="246.63" x="48.473" fill="url(#SVGID_56_)"/>
+					</g>
+				</g>
+			</mask>
+			<g mask="url(#SVGID_55_)" clip-path="url(#SVGID_54_)">
+					<defs>
+						<rect id="SVGID_57_" y="246.63" x="48.473" height="80.508" width="141.3"/>
+					</defs>
+					<clipPath id="SVGID_58_">
+						<use overflow="visible" xlink:href="#SVGID_57_"/>
+					</clipPath>
+					<g clip-path="url(#SVGID_58_)">
+						<defs>
+							<rect id="SVGID_59_" y="246.63" x="48.473" height="80.508" width="141.3"/>
+						</defs>
+						<clipPath id="SVGID_60_">
+							<use overflow="visible" xlink:href="#SVGID_59_"/>
+						</clipPath>
+						<polygon points="121.13 248.79 50.63 301.17 75.435 324.89 187.62 324.98" clip-path="url(#SVGID_60_)"/>
+					</g>
+			</g>
+		</g>
+</g>
+<g opacity=".1">
+		<defs>
+			<rect id="SVGID_61_" y="334.9" x="53.98" height="51.997" width="88.315"/>
+		</defs>
+		<clipPath id="SVGID_62_">
+			<use overflow="visible" xlink:href="#SVGID_61_"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_62_)">
+			<defs>
+				<rect id="SVGID_63_" y="334.9" x="53.98" height="51.997" width="88.315"/>
+			</defs>
+			<clipPath id="SVGID_64_">
+				<use overflow="visible" xlink:href="#SVGID_63_"/>
+			</clipPath>
+			<defs>
+				<filter id="Adobe_OpacityMaskFilter_6_" height="51.997" width="88.315" y="334.9" x="53.98" filterUnits="userSpaceOnUse">
+					<feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0" type="matrix"/>
+				</filter>
+			</defs>
+			<mask id="SVGID_65_" height="51.997" width="88.315" y="334.899" x="53.98" maskUnits="userSpaceOnUse">
+				<g filter="url(#Adobe_OpacityMaskFilter_6_)">
+					<rect y="334.9" x="53.98" height="51.997" width="88.315" clip-path="url(#SVGID_64_)"/>
+					<g enable-background="new    ">
+							<linearGradient id="SVGID_66_" y2="490.72" gradientUnits="userSpaceOnUse" x2="3.4476" gradientTransform="matrix(0 9.7534 -9.7534 0 4884.3 353.39)" y1="490.72" x1="1.2886">
+							<stop stop-color="#fff" offset="0"/>
+							<stop offset=".9139"/>
+							<stop offset=".926"/>
+							<stop offset="1"/>
+						</linearGradient>
+						<rect clip-path="url(#SVGID_64_)" height="51.997" width="88.315" y="334.9" x="53.98" fill="url(#SVGID_66_)"/>
+					</g>
+				</g>
+			</mask>
+			<g mask="url(#SVGID_65_)" clip-path="url(#SVGID_64_)">
+					<defs>
+						<rect id="SVGID_67_" y="334.9" x="53.98" height="51.997" width="88.315"/>
+					</defs>
+					<clipPath id="SVGID_68_">
+						<use overflow="visible" xlink:href="#SVGID_67_"/>
+					</clipPath>
+					<g clip-path="url(#SVGID_68_)">
+						<defs>
+							<rect id="SVGID_69_" y="334.9" x="53.98" height="51.997" width="88.315"/>
+						</defs>
+						<clipPath id="SVGID_70_">
+							<use overflow="visible" xlink:href="#SVGID_69_"/>
+						</clipPath>
+						<polygon points="89.737 337.06 56.139 370.14 71.349 384.69 140.14 384.74" clip-path="url(#SVGID_70_)"/>
+					</g>
+			</g>
+		</g>
+</g>
+<g opacity=".1">
+		<defs>
+			<rect id="SVGID_71_" y="457.86" x="156.26" height="87.49" width="98.121"/>
+		</defs>
+		<clipPath id="SVGID_72_">
+			<use overflow="visible" xlink:href="#SVGID_71_"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_72_)">
+			<defs>
+				<rect id="SVGID_73_" y="457.86" x="156.26" height="87.49" width="98.121"/>
+			</defs>
+			<clipPath id="SVGID_74_">
+				<use overflow="visible" xlink:href="#SVGID_73_"/>
+			</clipPath>
+			<defs>
+				<filter id="Adobe_OpacityMaskFilter_7_" height="87.49" width="98.121" y="457.86" x="156.26" filterUnits="userSpaceOnUse">
+					<feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0" type="matrix"/>
+				</filter>
+			</defs>
+			<mask id="SVGID_75_" height="87.49" width="98.121" y="457.864" x="156.263" maskUnits="userSpaceOnUse">
+				<g filter="url(#Adobe_OpacityMaskFilter_7_)">
+					<rect y="457.86" x="156.26" height="87.49" width="98.121" clip-path="url(#SVGID_74_)"/>
+					<g enable-background="new    ">
+							<linearGradient id="SVGID_76_" y2="484.82" gradientUnits="userSpaceOnUse" x2="11.976" gradientTransform="matrix(0 9.7534 -9.7534 0 4933.9 425.16)" y1="484.82" x1="9.8169">
+							<stop stop-color="#fff" offset="0"/>
+							<stop offset=".9139"/>
+							<stop offset=".926"/>
+							<stop offset="1"/>
+						</linearGradient>
+						<rect clip-path="url(#SVGID_74_)" height="87.49" width="98.121" y="457.86" x="156.26" fill="url(#SVGID_76_)"/>
+					</g>
+				</g>
+			</mask>
+			<g mask="url(#SVGID_75_)" clip-path="url(#SVGID_74_)">
+					<defs>
+						<rect id="SVGID_77_" y="457.86" x="156.26" height="87.49" width="98.121"/>
+					</defs>
+					<clipPath id="SVGID_78_">
+						<use overflow="visible" xlink:href="#SVGID_77_"/>
+					</clipPath>
+					<g clip-path="url(#SVGID_78_)">
+						<defs>
+							<rect id="SVGID_79_" y="457.86" x="156.26" height="87.49" width="98.121"/>
+						</defs>
+						<clipPath id="SVGID_80_">
+							<use overflow="visible" xlink:href="#SVGID_79_"/>
+						</clipPath>
+						<polygon points="200.42 460.02 158.42 525.11 173.63 539.65 252.22 543.2" clip-path="url(#SVGID_80_)"/>
+					</g>
+			</g>
+		</g>
+</g>
+<g opacity=".1">
+		<defs>
+			<rect id="SVGID_81_" y="408.95" x="98.208" height="55.557" width="107.43"/>
+		</defs>
+		<clipPath id="SVGID_82_">
+			<use overflow="visible" xlink:href="#SVGID_81_"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_82_)">
+			<defs>
+				<rect id="SVGID_83_" y="408.95" x="98.208" height="55.557" width="107.43"/>
+			</defs>
+			<clipPath id="SVGID_84_">
+				<use overflow="visible" xlink:href="#SVGID_83_"/>
+			</clipPath>
+			<defs>
+				<filter id="Adobe_OpacityMaskFilter_8_" height="55.557" width="107.43" y="408.95" x="98.208" filterUnits="userSpaceOnUse">
+					<feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0" type="matrix"/>
+				</filter>
+			</defs>
+			<mask id="SVGID_85_" height="55.557" width="107.429" y="408.949" x="98.208" maskUnits="userSpaceOnUse">
+				<g filter="url(#Adobe_OpacityMaskFilter_8_)">
+					<rect y="408.95" x="98.208" height="55.555" width="107.43" clip-path="url(#SVGID_84_)"/>
+					<g enable-background="new    ">
+							<linearGradient id="SVGID_86_" y2="489.3" gradientUnits="userSpaceOnUse" x2="6.4981" gradientTransform="matrix(0 11.973 -11.973 0 6010.2 387.35)" y1="489.3" x1="4.3394">
+							<stop stop-color="#fff" offset="0"/>
+							<stop offset=".9139"/>
+							<stop offset=".926"/>
+							<stop offset="1"/>
+						</linearGradient>
+						<rect clip-path="url(#SVGID_84_)" height="55.555" width="107.43" y="408.95" x="98.208" fill="url(#SVGID_86_)"/>
+					</g>
+				</g>
+			</mask>
+			<g mask="url(#SVGID_85_)" clip-path="url(#SVGID_84_)">
+					<defs>
+						<rect id="SVGID_87_" y="408.95" x="98.208" height="55.557" width="107.43"/>
+					</defs>
+					<clipPath id="SVGID_88_">
+						<use overflow="visible" xlink:href="#SVGID_87_"/>
+					</clipPath>
+					<g clip-path="url(#SVGID_88_)">
+						<defs>
+							<rect id="SVGID_89_" y="408.95" x="98.208" height="55.557" width="107.43"/>
+						</defs>
+						<clipPath id="SVGID_90_">
+							<use overflow="visible" xlink:href="#SVGID_89_"/>
+						</clipPath>
+						<polygon points="136.56 424.5 128.79 416.44 100.37 444.42 119.04 462.28 203.48 462.35 149.32 411.11" clip-path="url(#SVGID_90_)"/>
+					</g>
+			</g>
+		</g>
+</g>
+<g opacity=".1">
+		<defs>
+			<rect id="SVGID_91_" y="130.14" x="122.56" height="29.919" width="75.061"/>
+		</defs>
+		<clipPath id="SVGID_92_">
+			<use overflow="visible" xlink:href="#SVGID_91_"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_92_)">
+			<defs>
+				<rect id="SVGID_93_" y="130.14" x="122.56" height="29.38" width="73.442"/>
+			</defs>
+			<clipPath id="SVGID_94_">
+				<use overflow="visible" xlink:href="#SVGID_93_"/>
+			</clipPath>
+			<defs>
+				<filter id="Adobe_OpacityMaskFilter_9_" height="29.379" width="73.442" y="130.68" x="124.17" filterUnits="userSpaceOnUse">
+					<feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0" type="matrix"/>
+				</filter>
+			</defs>
+			<mask id="SVGID_95_" height="29.379" width="73.442" y="130.676" x="124.174" maskUnits="userSpaceOnUse">
+				<g filter="url(#Adobe_OpacityMaskFilter_9_)">
+					<rect y="130.68" x="124.17" height="29.379" width="73.442" clip-path="url(#SVGID_94_)"/>
+					<g enable-background="new    ">
+							<linearGradient id="SVGID_96_" y2="490.69" gradientUnits="userSpaceOnUse" x2="-5.1215" gradientTransform="matrix(0 15.906 -15.906 0 7965.8 242.61)" y1="490.69" x1="-7.2808">
+							<stop stop-color="#fff" offset="0"/>
+							<stop offset=".9139"/>
+							<stop offset=".926"/>
+							<stop offset="1"/>
+						</linearGradient>
+						<rect clip-path="url(#SVGID_94_)" height="29.379" width="73.442" y="130.68" x="124.17" fill="url(#SVGID_96_)"/>
+					</g>
+				</g>
+			</mask>
+			<g mask="url(#SVGID_95_)" clip-path="url(#SVGID_94_)">
+					<defs>
+						<rect id="SVGID_97_" y="130.68" x="124.17" height="29.379" width="73.442"/>
+					</defs>
+					<clipPath id="SVGID_98_">
+						<use overflow="visible" xlink:href="#SVGID_97_"/>
+					</clipPath>
+					<g clip-path="url(#SVGID_98_)">
+						<defs>
+							<rect id="SVGID_99_" y="130.68" x="124.17" height="29.379" width="73.442"/>
+						</defs>
+						<clipPath id="SVGID_100_">
+							<use overflow="visible" xlink:href="#SVGID_99_"/>
+						</clipPath>
+						<polygon points="154.86 132.92 126.33 132.84 161.92 157.81 195.46 157.9" clip-path="url(#SVGID_100_)"/>
+					</g>
+			</g>
+		</g>
+</g>
+<polyline points="408.56 0 408.56 74.738 411.7 74.738 411.7 0" fill="#fff"/>
+<polyline points="411.7 655.6 411.7 473.09 408.56 473.09 408.56 655.6" fill="#fff"/>
+<polyline points="271.25 37.634 308.76 102.6 311.48 101.02 273.97 36.063" fill="#fff"/>
+<polyline points="549.01 512.45 510.68 446.06 507.96 447.63 546.29 514.02" fill="#fff"/>
+<polyline points="238.14 173.93 172.72 136.16 171.16 138.88 236.56 176.65" fill="#fff"/>
+<polyline points="211.26 273.47 135.09 273.47 135.09 276.61 211.26 276.61" fill="#fff"/>
+<polyline points="237.54 372.87 171.15 411.2 172.72 413.92 239.11 375.59" fill="#fff"/>
+<polyline points="273.97 514.02 312.45 447.37 309.73 445.8 271.25 512.45" fill="#fff"/>
+<polyline points="337.43 9.78 356.79 82.033 359.82 81.221 340.46 8.968" fill="#fff"/>
+<polyline points="482.84 540.3 462.95 466.09 459.91 466.9 479.8 541.11" fill="#fff"/>
+<polyline points="214.54 81.671 267.77 134.91 270 132.68 216.76 79.449" fill="#fff"/>
+<polyline points="144.05 205.38 217.29 225 218.11 221.96 144.87 202.34" fill="#fff"/>
+<polyline points="217.85 324.93 144.05 344.7 144.87 347.74 218.67 327.97" fill="#fff"/>
+<polyline points="268.9 414.05 214.54 468.41 216.76 470.64 271.12 416.27" fill="#fff"/>
+<polyline points="340.46 541.11 360.39 466.75 357.35 465.94 337.43 540.3" fill="#fff"/>
+<rect y="468.84" x="162.18" height="37.784" width="35.803" fill="#F37974"/>
+<polyline points="16.461 47.016 29.521 47.016 29.521 64.974 16.461 64.974" fill="#F37974"/>
+<polyline points="16.461 64.974 3.403 64.974 3.403 47.016 16.461 47.016" fill="#fff"/>
+<polygon points="33.712 56.35 40.123 56.844 42.515 63.304 34.019 61.932" fill="#A7A9AC"/>
+<polygon points="39.957 57.35 42.515 63.304 34.833 61.912" fill="#fff"/>
+<path d="m15.789 70.121c0 1.958-1.591 3.55-3.549 3.55s-3.545-1.592-3.545-3.55c0-1.957 1.586-3.547 3.545-3.547 1.957-0.001 3.549 1.59 3.549 3.547" fill="#fff"/>
+<path d="m40.808 70.121c0 1.958-1.585 3.55-3.547 3.55-1.957 0-3.548-1.592-3.548-3.55 0-1.957 1.591-3.547 3.548-3.547 1.962-0.001 3.547 1.59 3.547 3.547" fill="#fff"/>
+<path d="m39.26 70.121c0 1.104-0.894 1.999-2 1.999-1.103 0-1.995-0.894-1.995-1.999 0-1.104 0.892-1.998 1.995-1.998 1.106 0 2 0.894 2 1.998" fill="#D1D3D4"/>
+<path d="m14.229 70.121c0 1.104-0.894 1.999-1.998 1.999-1.105 0-2.001-0.894-2.001-1.999 0-1.104 0.896-1.998 2.001-1.998 1.104 0 1.998 0.894 1.998 1.998" fill="#D1D3D4"/>
+<path d="m34.777 61.885v-4.858l5.094 0.387 2.068 5.371-7.162-0.9zm5.717-6.034l-9.3-0.706v11.43h-29.029l-0.006 2.595 2.687 0.95h27.929c0-2.476 2.007-4.487 4.487-4.487 2.482 0 4.49 2.011 4.49 4.487h0.616c0.494 0 0.896-0.4 0.896-0.894v-6.548c-0.729-1.776-2.77-6.827-2.77-6.827" fill="#D1D3D4"/>
+<polygon points="16.461 47.34 29.197 47.34 29.197 64.649 16.461 64.649 16.461 65.299 29.844 65.299 29.844 46.69 16.461 46.69" fill="#F37974"/>
+<polygon points="16.461 64.65 3.73 64.65 3.73 47.341 16.461 47.341 16.461 46.691 3.079 46.691 3.079 65.3 16.461 65.3" fill="#fff"/>
+<path d="m7.265 61.702l-0.509-1.237-0.51 1.237h1.019zm-0.886-2.25h0.775l1.642 3.852h-0.882l-0.347-0.856h-1.617l-0.352 0.856h-0.857l1.638-3.852z" fill="#F37974"/>
+<rect y="66.573" x="2.165" height="1.094" width="29.026" fill="#A7A9AC"/>
+<polygon points="65.042 83.047 45.021 92.753 65.042 102.45 85.066 92.753" fill="#808285"/>
+<polygon points="65.042 63.638 45.021 73.345 65.042 83.048 85.066 73.345" fill="#005B94"/>
+<polygon points="65.042 65.589 47.029 74.318 65.042 83.047 83.055 74.318" fill="#F37974"/>
+<polygon points="65.042 83.047 65.042 102.45 85.066 92.753 85.066 73.347" fill="#fff"/>
+<polygon points="65.042 83.047 65.042 85.452 85.066 75.749 85.066 73.347" fill="#DCDDDE"/>
+<polygon points="65.042 83.047 65.042 102.45 45.021 92.753 45.021 73.347" fill="#DCDDDE"/>
+<polygon points="65.042 83.047 65.042 85.39 45.021 75.685 45.021 73.347" fill="#fff"/>
+<polygon points="50.189 79.556 50.189 82.636 45.871 80.541 45.871 77.463" fill="#fff"/>
+<polygon points="50.189 83.007 50.189 86.085 45.871 83.996 45.871 80.915" fill="#fff"/>
+<polygon points="50.189 86.459 50.189 89.539 45.871 87.447 45.871 84.366" fill="#fff"/>
+<polygon points="50.189 89.91 50.189 92.991 45.871 90.899 45.871 87.819" fill="#fff"/>
+<polygon points="54.856 81.862 54.856 84.944 50.54 82.852 50.54 79.771" fill="#fff"/>
+<polygon points="54.856 85.316 54.856 88.393 50.54 86.3 50.54 83.224" fill="#fff"/>
+<polygon points="54.856 88.767 54.856 91.847 50.54 89.753 50.54 86.676" fill="#fff"/>
+<polygon points="54.856 92.22 54.856 95.298 50.54 93.205 50.54 90.127" fill="#fff"/>
+<polygon points="59.526 84.17 59.526 87.251 55.206 85.157 55.206 82.079" fill="#fff"/>
+<polygon points="59.526 87.621 59.526 90.703 55.206 88.61 55.206 85.53" fill="#fff"/>
+<polygon points="59.526 91.074 59.526 94.154 55.206 92.063 55.206 88.981" fill="#fff"/>
+<polygon points="59.526 94.527 59.526 97.605 55.206 95.514 55.206 92.433" fill="#fff"/>
+<polygon points="64.196 86.476 64.196 89.559 59.878 87.467 59.878 84.386" fill="#fff"/>
+<polygon points="64.196 89.932 64.196 93.01 59.878 90.918 59.878 87.838" fill="#fff"/>
+<polygon points="64.196 93.383 64.196 96.464 59.878 94.37 59.878 91.292" fill="#fff"/>
+<polygon points="64.196 96.834 64.196 99.914 59.878 97.821 59.878 94.743" fill="#fff"/>
+<polygon points="79.898 79.556 79.898 82.636 84.217 80.541 84.217 77.463" fill="#DCDDDE"/>
+<polygon points="79.898 83.007 79.898 86.085 84.217 83.996 84.217 80.915" fill="#DCDDDE"/>
+<polygon points="79.898 86.459 79.898 89.539 84.217 87.447 84.217 84.366" fill="#DCDDDE"/>
+<polygon points="79.898 89.91 79.898 92.991 84.217 90.899 84.217 87.819" fill="#DCDDDE"/>
+<polygon points="75.228 81.862 75.228 84.944 79.546 82.852 79.546 79.771" fill="#DCDDDE"/>
+<polygon points="75.228 85.316 75.228 88.393 79.546 86.3 79.546 83.224" fill="#DCDDDE"/>
+<polygon points="75.228 88.767 75.228 91.847 79.546 89.753 79.546 86.676" fill="#DCDDDE"/>
+<polygon points="75.228 92.22 75.228 95.298 79.546 93.205 79.546 90.127" fill="#DCDDDE"/>
+<polygon points="70.562 84.17 70.562 87.251 74.875 85.157 74.875 82.079" fill="#DCDDDE"/>
+<polygon points="70.562 87.621 70.562 90.703 74.875 88.61 74.875 85.53" fill="#DCDDDE"/>
+<polygon points="70.562 91.074 70.562 94.154 74.875 92.063 74.875 88.981" fill="#DCDDDE"/>
+<polygon points="70.562 94.527 70.562 97.605 74.875 95.514 74.875 92.433" fill="#DCDDDE"/>
+<polygon points="65.891 86.476 65.891 89.559 70.209 87.467 70.209 84.386" fill="#DCDDDE"/>
+<polygon points="65.891 89.932 65.891 93.01 70.209 90.918 70.209 87.838" fill="#DCDDDE"/>
+<polygon points="65.891 93.383 65.891 96.464 70.209 94.37 70.209 91.292" fill="#DCDDDE"/>
+<polygon points="65.891 96.834 65.891 99.914 70.209 97.821 70.209 94.743" fill="#DCDDDE"/>
+<polygon points="103.56 104.31 84.91 113.63 103.56 122.96 122.22 113.63" fill="#808285"/>
+<polygon points="103.56 85.657 84.91 94.983 103.56 104.31 122.22 94.983" fill="#005B94"/>
+<polygon points="103.56 104.31 103.56 122.96 122.22 113.63 122.22 94.983" fill="#fff"/>
+<polygon points="108.23 109.52 108.23 119.5 118.2 114.51 118.2 104.54" fill="#DCDDDE"/>
+<polygon points="103.56 104.31 103.56 122.96 84.91 113.63 84.91 94.983" fill="#DCDDDE"/>
+<polygon points="89.768 99.5 89.768 102.34 85.912 100.41 85.912 97.577" fill="#fff"/>
+<polygon points="93.932 101.62 93.932 104.46 90.083 102.54 90.083 99.701" fill="#fff"/>
+<polygon points="98.104 103.75 98.104 106.58 94.247 104.66 94.247 101.82" fill="#fff"/>
+<polygon points="102.27 105.88 102.27 108.71 98.416 106.78 98.416 103.95" fill="#fff"/>
+<polygon points="117.34 99.5 117.34 102.34 121.19 100.41 121.19 97.577" fill="#DCDDDE"/>
+<polygon points="113.17 101.62 113.17 104.46 117.02 102.54 117.02 99.701" fill="#DCDDDE"/>
+<polygon points="109.01 103.75 109.01 106.58 112.86 104.66 112.86 101.82" fill="#DCDDDE"/>
+<polygon points="104.84 105.88 104.84 108.71 108.69 106.78 108.69 103.95" fill="#DCDDDE"/>
+<polygon points="112.09 89.92 110.6 89.177 91.945 98.5 93.437 99.244" fill="#F37974"/>
+<polygon points="86.233 95.643 87.725 96.391 106.38 87.063 104.88 86.321" fill="#F37974"/>
+<polygon points="109.23 88.494 107.74 87.748 89.088 97.075 90.578 97.815" fill="#F37974"/>
+<polygon points="114.94 91.347 113.46 90.604 94.802 99.927 96.293 100.68" fill="#F37974"/>
+<polygon points="117.8 92.777 116.31 92.03 97.656 101.36 99.148 102.1" fill="#F37974"/>
+<polygon points="120.66 94.206 119.17 93.462 100.51 102.79 102 103.53" fill="#F37974"/>
+<polygon points="139.35 125.33 124.9 132.55 139.35 139.78 153.8 132.55" fill="#808285"/>
+<polygon points="139.35 125.33 139.35 139.78 153.8 132.55 153.8 118.11" fill="#fff"/>
+<polygon points="143.65 130.81 143.65 137.62 150.64 134.12 150.64 127.31" fill="#DCDDDE"/>
+<polygon points="139.35 125.33 139.35 139.78 124.9 132.55 124.9 118.11" fill="#DCDDDE"/>
+<polygon points="139.35 106.92 124.9 114.13 139.35 121.36 153.8 114.13" fill="#005B94"/>
+<polygon points="139.35 121.36 139.35 125.28 153.8 118.06 153.8 114.14" fill="#F37974"/>
+<polygon points="139.35 121.36 139.35 125.28 124.9 118.06 124.9 114.14" fill="#F37974"/>
+<polygon points="144.97 125.23 144.97 126.98 149.31 124.8 149.31 123.05" fill="#F37974"/>
+<polygon points="146.48 122.75 146.48 127.94 147.8 127.29 147.8 122.09" fill="#F37974"/>
+<path d="m127.25 207.06c0 4.878-7.911 8.833-17.666 8.833-9.757 0-17.669-3.956-17.669-8.833v-9.536h35.335v9.54z" fill="#fff"/>
+<path d="m101.68 197.53v17.44c2.376 0.591 5.059 0.93 7.899 0.93 9.756 0 17.667-3.958 17.667-8.834v-9.536h-25.57z" fill="#fff"/>
+<path d="m127.25 197.53c0 4.879-7.911 8.834-17.666 8.834-9.757 0-17.669-3.955-17.669-8.834 0-4.878 7.913-8.83 17.669-8.83 9.76 0 17.67 3.95 17.67 8.83" fill="#D1D3D4"/>
+<path d="m127.25 194.97c0 4.879-7.911 8.837-17.666 8.837-9.757 0-17.669-3.958-17.669-8.837v-1.332h35.335v1.33z" fill="#F37974"/>
+<path d="m127.25 193.63c0 4.881-7.911 8.834-17.666 8.834-9.757 0-17.669-3.953-17.669-8.834 0-4.876 7.913-8.828 17.669-8.828 9.76 0.01 17.67 3.96 17.67 8.83" fill="#E06D68"/>
+<path d="m127.25 192.39c0 4.875-7.911 8.832-17.666 8.832-9.757 0-17.669-3.958-17.669-8.832v-1.332h35.335v1.33z" fill="#F37974"/>
+<path d="m127.25 191.06c0 4.877-7.911 8.833-17.666 8.833-9.757 0-17.669-3.956-17.669-8.833 0-4.879 7.913-8.834 17.669-8.834 9.76-0.01 17.67 3.95 17.67 8.83" fill="#E06D68"/>
+<path d="m127.25 189.81c0 4.875-7.911 8.828-17.666 8.828-9.757 0-17.669-3.953-17.669-8.828v-1.333h35.335v1.33z" fill="#F37974"/>
+<path d="m127.25 188.48c0 4.877-7.911 8.83-17.666 8.83-9.757 0-17.669-3.953-17.669-8.83 0-4.882 7.913-8.837 17.669-8.837 9.76 0 17.67 3.96 17.67 8.84" fill="#E06D68"/>
+<path d="m127.25 187.23c0 4.879-7.911 8.832-17.666 8.832-9.757 0-17.669-3.955-17.669-8.832v-1.331h35.335v1.33z" fill="#F37974"/>
+<path d="m127.25 185.9c0 4.881-7.911 8.83-17.666 8.83-9.757 0-17.669-3.949-17.669-8.83 0-4.88 7.913-8.833 17.669-8.833 9.76 0 17.67 3.95 17.67 8.83" fill="#E06D68"/>
+<path d="m127.25 184.66c0 4.873-7.911 8.83-17.666 8.83-9.757 0-17.669-3.958-17.669-8.83v-1.334h35.335v1.33z" fill="#F37974"/>
+<path d="m127.25 183.32c0 4.877-7.911 8.832-17.666 8.832-9.757 0-17.669-3.955-17.669-8.832 0-4.88 7.913-8.83 17.669-8.83 9.76 0 17.67 3.95 17.67 8.83" fill="#E06D68"/>
+<path d="m127.25 182.22c0 4.88-7.911 8.834-17.666 8.834-9.757 0-17.669-3.956-17.669-8.834v-1.331h35.335v1.33z" fill="#F37974"/>
+<path d="m127.25 180.89c0 4.878-7.911 8.836-17.666 8.836-9.757 0-17.669-3.958-17.669-8.836 0-4.88 7.913-8.832 17.669-8.832 9.76 0 17.67 3.95 17.67 8.83" fill="#E06D68"/>
+<path d="m127.25 178.99c0 4.879-7.911 8.832-17.666 8.832-9.757 0-17.669-3.953-17.669-8.832v-3.836h35.335v3.84z" fill="#D1D3D4"/>
+<path d="m127.25 175.15c0 4.876-7.911 8.828-17.666 8.828-9.757 0-17.669-3.952-17.669-8.828 0-4.879 7.913-8.834 17.669-8.834 9.76 0 17.67 3.95 17.67 8.83" fill="#fff"/>
+<path d="m117.48 167.25l-15.802 15.804c2.377 0.595 5.058 0.927 7.903 0.927 9.754 0 17.664-3.952 17.664-8.826 0.01-3.46-3.97-6.45-9.76-7.9" fill="#fff"/>
+<path d="m119.2 209.72c0.111 0.776 0.782 1.102 1.503 0.732 0.722-0.374 1.22-1.304 1.109-2.075-0.107-0.776-0.783-1.101-1.502-0.73-0.73 0.37-1.22 1.3-1.11 2.07" fill="#F37974"/>
+<path d="m119.3 209.36c0.08 0.557 0.565 0.79 1.082 0.525 0.516-0.263 0.872-0.928 0.792-1.487-0.077-0.558-0.556-0.791-1.077-0.521-0.51 0.27-0.87 0.94-0.79 1.49" fill="#E06D68"/>
+<path d="m103.67 409.1c-8.838 0-16.842 3.644-22.585 9.511l3.248 3.243c4.91-5.036 11.762-8.166 19.337-8.166 7.572 0 14.427 3.13 19.34 8.166l3.242-3.243c-5.74-5.87-13.74-9.51-22.58-9.51" fill="#fff"/>
+<path d="m103.67 416.47c-6.807 0-12.965 2.819-17.369 7.344l3.241 3.244c3.574-3.697 8.584-6.004 14.128-6.004 5.541 0 10.551 2.307 14.125 6.004l3.243-3.244c-4.4-4.52-10.56-7.34-17.37-7.34" fill="#fff"/>
+<path d="m103.67 424.12c-4.693 0-8.939 1.961-11.96 5.103l3.247 3.247c2.187-2.313 5.285-3.763 8.713-3.763 3.427 0 6.523 1.45 8.714 3.763l3.242-3.247c-3.01-3.13-7.26-5.1-11.95-5.1" fill="#fff"/>
+<path d="m107.29 440.18l21.021-21.118 6.333 6.568c0.34 0.354 0.815 0.557 1.306 0.557 0.492 0 0.965-0.202 1.307-0.557l13.827-14.349-2.612-2.52-12.521 12.995-6.313-6.545c-0.336-0.348-0.808-0.553-1.291-0.555-0.486-0.004-0.959 0.191-1.302 0.534l-22.327 22.428 2.56 2.56z" fill="#F37974"/>
+<polygon points="152.58 414.94 155.2 404.4 144.76 407.4" fill="#F37974"/>
+<path d="m103.61 432.8c2.984 0 5.402 2.421 5.402 5.401 0 2.988-2.418 5.406-5.402 5.406-2.983 0-5.402-2.418-5.402-5.406 0-2.98 2.422-5.4 5.402-5.4" fill="#fff"/>
+<polygon points="27.233 26.387 19.713 39.417 12.19 26.387 19.713 29.589" fill="#F37974"/>
+<path d="m158.41 524.13c0 0.213 0.176 0.393 0.39 0.651h42.432c0.215-0.259 0.39-0.438 0.39-0.651v-10.698h-43.21v10.7z" fill="#DCDDDE"/>
+<path d="m188.78 498.59c-2.115 1.378-4.75 2.245-7.492 2.245-3.209 0-6.569-1.187-9.435-4.12-0.754-0.776-0.74-2.024 0.034-2.776 0.775-0.757 2.021-0.746 2.777 0.027 4.016 4.12 8.96 3.291 11.976 1.333 3.01-1.959 5.77-6.143 3.632-11.481-2.134-5.342-7.015-6.464-10.547-5.809-3.109 0.578-6.686 2.817-7.555 7.26h1.979c0.299 0 0.564 0.155 0.702 0.422 0.132 0.266 0.107 0.579-0.062 0.822l-4.148 5.749c-0.145 0.205-0.382 0.327-0.638 0.327-0.249 0-0.489-0.116-0.632-0.327l-4.147-5.749c-0.173-0.243-0.201-0.557-0.063-0.822 0.131-0.267 0.404-0.422 0.697-0.422h2.341c0.904-6.441 5.886-10.207 10.804-11.122 5.393-1.004 12.094 1.146 14.916 8.208 2.82 7.06-0.55 13.24-5.15 16.23m12.84-36.69c0-1.714-0.8-2.514-2.513-2.514h-38.187c-1.715 0-2.514 0.8-2.514 2.514v51.538h43.213v-51.54z" fill="#fff"/>
+<rect y="516.51" x="162.18" height="4.626" width="25.584" fill="#E06D68"/>
+<path d="m196.51 519.32c0 1.543-1.254 2.796-2.799 2.796-1.55 0-2.8-1.253-2.8-2.796 0-1.548 1.25-2.805 2.8-2.805 1.55-0.01 2.8 1.25 2.8 2.8" fill="#F37974"/>
+<path d="m195.84 518.64c0 1.168-0.95 2.122-2.122 2.122-1.17 0-2.122-0.954-2.122-2.122 0-1.173 0.952-2.126 2.122-2.126s2.12 0.96 2.12 2.13" fill="#E06D68"/>
+<rect y="520.76" x="162.18" height="1.353" width="25.584" fill="#F37974"/>
+<path d="m82.932 353.7c0 5.28-4.279 9.554-9.556 9.554-5.28 0-9.56-4.273-9.56-9.554 0-5.279 4.279-9.558 9.56-9.558 5.277 0 9.556 4.28 9.556 9.56" fill="#F37974"/>
+<path d="m132.8 339.99c0 5.773-4.683 10.454-10.452 10.454-5.776 0-10.456-4.681-10.456-10.454 0-5.772 4.68-10.453 10.456-10.453 5.77 0 10.45 4.68 10.45 10.45" fill="#F37974"/>
+<path d="m73.376 355.21c-0.838 0-1.514-0.676-1.514-1.508 0-0.84 0.676-1.514 1.514-1.514 0.835 0 1.511 0.674 1.511 1.514 0 0.83-0.676 1.51-1.511 1.51m3.402-1.51c0-1.881-1.527-3.407-3.402-3.407-1.878 0-3.403 1.526-3.403 3.407 0 1.874 1.524 3.399 3.403 3.399 1.875 0 3.402-1.53 3.402-3.4" fill="#fff"/>
+<path d="m84.221 341.58h-21.693v-2.531h5.786v1.813h15.907v0.72zm-21.682 12.12c0-5.984 4.85-10.837 10.836-10.837 5.982 0 10.834 4.853 10.834 10.837 0 5.986-4.852 10.834-10.834 10.834-5.987 0-10.836-4.85-10.836-10.83m21.682 12.47h-21.693v-0.726h21.693v0.73zm-3.978-30.73v-3.794h-23.862v39.953h33.985v-36.158h-10.123z" fill="#fff"/>
+<path d="m108.18 347.03h-13.44v-11.32h13.44v11.32zm-1.64-15.42v1.018c0.246 0.251 0.395 0.594 0.395 0.972 0 0.769-0.62 1.384-1.39 1.384-0.769 0-1.391-0.615-1.391-1.384 0-0.378 0.153-0.721 0.395-0.972v-1.018h-6.18v1.018c0.242 0.251 0.396 0.594 0.396 0.972 0 0.769-0.623 1.384-1.389 1.384-0.77 0-1.391-0.615-1.391-1.384 0-0.378 0.153-0.721 0.394-0.972v-1.018h-2.93v16.766h16.013v-16.766h-2.93z" fill="#fff"/>
+<rect y="337.4" x="105.42" height="1.662" width="1.602" fill="#F37974"/>
+<rect y="337.4" x="103.08" height="1.662" width="1.599" fill="#F37974"/>
+<rect y="337.4" x="100.74" height="1.662" width="1.601" fill="#F37974"/>
+<rect y="339.72" x="105.42" height="1.659" width="1.602" fill="#F37974"/>
+<rect y="339.72" x="103.08" height="1.659" width="1.599" fill="#F37974"/>
+<rect y="339.72" x="100.74" height="1.659" width="1.601" fill="#F37974"/>
+<rect y="339.72" x="98.394" height="1.659" width="1.601" fill="#F37974"/>
+<rect y="339.72" x="96.05" height="1.659" width="1.603" fill="#F37974"/>
+<rect y="342.03" x="105.42" height="1.659" width="1.602" fill="#F37974"/>
+<rect y="342.03" x="103.08" height="1.659" width="1.599" fill="#F37974"/>
+<rect y="342.03" x="100.74" height="1.659" width="1.601" fill="#F37974"/>
+<rect y="342.03" x="98.394" height="1.659" width="1.601" fill="#F37974"/>
+<rect y="342.03" x="96.05" height="1.659" width="1.603" fill="#F37974"/>
+<rect y="344.35" x="103.08" height="1.663" width="1.599" fill="#F37974"/>
+<rect y="344.35" x="100.74" height="1.663" width="1.601" fill="#F37974"/>
+<rect y="344.35" x="98.394" height="1.663" width="1.601" fill="#F37974"/>
+<rect y="344.35" x="96.05" height="1.663" width="1.603" fill="#F37974"/>
+<path d="m105.58 334.16c0.258 0 0.468-0.208 0.468-0.475v-4.084c0-0.262-0.21-0.472-0.468-0.472-0.264 0-0.472 0.21-0.472 0.472v4.084c0 0.28 0.21 0.48 0.47 0.48" fill="#F37974"/>
+<path d="m97.377 334.16c0.26 0 0.472-0.208 0.472-0.475v-4.084c0-0.262-0.212-0.472-0.472-0.472-0.261 0-0.472 0.21-0.472 0.472v4.084c0 0.28 0.211 0.48 0.472 0.48" fill="#F37974"/>
+<path d="m118.81 339.99c0 0.848-0.684 1.532-1.535 1.532-0.847 0-1.528-0.684-1.528-1.532 0-0.849 0.682-1.534 1.528-1.534 0.84 0 1.53 0.68 1.53 1.53" fill="#fff"/>
+<path d="m123.88 339.99c0 0.848-0.685 1.532-1.529 1.532-0.85 0-1.535-0.684-1.535-1.532 0-0.849 0.685-1.534 1.535-1.534 0.84 0 1.52 0.68 1.52 1.53" fill="#fff"/>
+<path d="m128.96 339.99c0 0.848-0.688 1.532-1.535 1.532-0.846 0-1.535-0.684-1.535-1.532 0-0.849 0.689-1.534 1.535-1.534 0.85 0 1.54 0.68 1.54 1.53" fill="#fff"/>
+<polygon points="379.29 674.12 410.12 620.73 440.95 674.12 410.12 660.99" fill="#F37974"/>
+<path d="m162.32 59.522l-0.052-0.049c-0.599-0.583-1.392-0.906-2.23-0.906-0.867 0-1.681 0.338-2.282 0.956l-5.271 5.353c-1.229 1.256-1.207 3.277 0.05 4.508l0.052 0.052c0.598 0.579 1.391 0.902 2.233 0.902 0.867 0 1.677-0.337 2.281-0.957l5.271-5.352c1.23-1.254 1.21-3.279-0.05-4.507" fill="#F37974"/>
+<path d="m168.79 64.295l-0.049-0.054c-0.596-0.579-1.389-0.902-2.229-0.902-0.868 0-1.68 0.338-2.281 0.956l-5.271 5.352c-1.229 1.255-1.205 3.282 0.052 4.512l0.049 0.045c0.599 0.585 1.391 0.909 2.229 0.909 0.872 0 1.683-0.343 2.285-0.956l5.271-5.354c1.23-1.257 1.21-3.28-0.06-4.508" fill="#F37974"/>
+<path d="m175.69 68.498l-0.056-0.047c-0.595-0.585-1.385-0.905-2.229-0.905-0.866 0-1.676 0.336-2.28 0.954l-5.273 5.35c-1.228 1.259-1.203 3.282 0.056 4.512l0.052 0.047c0.593 0.585 1.386 0.91 2.229 0.91 0.871 0 1.676-0.341 2.28-0.957l5.271-5.353c1.24-1.258 1.21-3.28-0.05-4.511" fill="#F37974"/>
+<path d="m182.17 73.083l-0.053-0.051c-0.598-0.583-1.386-0.902-2.229-0.902-0.867 0-1.68 0.34-2.282 0.956l-5.268 5.351c-1.23 1.258-1.21 3.279 0.049 4.509l0.05 0.052c0.601 0.583 1.393 0.905 2.233 0.905 0.866 0 1.679-0.341 2.281-0.957l5.271-5.352c1.23-1.258 1.21-3.283-0.05-4.511" fill="#F37974"/>
+<path d="m187.83 49.805c-5.586 5.281-9.91 7.254-10.089 7.34l-0.04 0.014c-0.83 0.266-1.819 0.401-2.865 0.401-1.327 0-2.419-0.216-2.957-0.403-1.077-0.381-2.923-2.16-3.722-3.593-0.823-1.477-0.106-3.714-0.076-3.807l0.023-0.084 12.259-11.557c-0.587-0.585-1.755-0.882-3.469-0.882-4.683 0-11.764 2.267-12.164 2.394-0.531 0.237-1.306 0.356-2.297 0.356-1.775 0-3.695-0.374-4.005-0.435h-0.01c-1.041 0-3.76-1.631-4.201-1.901-0.446-0.158-0.867-0.24-1.252-0.24-1.047 0-1.542 0.59-1.632 0.701l-5.908 13.479c-1.854 3.49-1.988 4.503-1.972 4.763 3.242 0.788 7.538 5.447 8.609 6.65l6.148-6.006 0.1-0.022c0.521-0.108 1.025-0.167 1.496-0.167 3.78 0 4.839 3.49 5.08 4.598 0.31-0.026 0.611-0.041 0.902-0.041 4.474 0 5.404 3.583 5.592 4.802 0.622-0.125 1.213-0.188 1.767-0.188 4.104 0 5.045 3.443 5.251 4.599 2.154-0.324 3.814 0.14 4.929 1.364 1.772 1.945 1.494 5.093 1.483 5.232l-0.013 0.118-6.087 6.187c0.849 0.451 1.66 0.676 2.411 0.676 3.011 0 4.323-3.706 4.334-3.744l0.098-0.279 0.286 0.054c0.506 0.088 0.982 0.139 1.428 0.139 4.065 0 4.277-3.848 4.283-4.005l0.017-0.428 0.411 0.107c0.82 0.214 1.581 0.32 2.271 0.32 4.236 0 4.663-3.992 4.679-4.161l0.031-0.375 0.373 0.066c0.626 0.123 1.211 0.175 1.747 0.175 1.409 0 2.476-0.418 3.154-1.246 1.31-1.602 0.835-4.228 0.809-4.376-1.1-4.416-15.22-15.11-17.21-16.595" fill="#fff"/>
+<path d="m211.69 39.19l-0.009-0.039c-0.345-1.686-1.372-1.937-1.956-1.937l-0.149 0.006c-3.108 2.427-6.504 2.792-8.26 2.792-0.669 0-1.092-0.053-1.159-0.062-3.109-0.303-6.955-1.628-7.116-1.687l-0.041-0.013c-2.368-1.161-4.399-1.749-6.034-1.749-1.641 0-2.268 0.622-2.275 0.626-7.027 7.536-13.577 12.522-14.325 13.084-1.188 2.627 1.915 4.793 2.322 5.065 0.845 0.205 1.64 0.308 2.36 0.308 1.193 0 1.772-0.293 1.781-0.293l0.078-0.041h0.114c1.835 0 8.439-5.512 10.827-7.641l0.171-0.15 0.212 0.099c7.956 3.906 18.03 15.614 18.598 16.281 0.56 0.421 1.074 0.635 1.542 0.635 0.541 0 0.822-0.297 0.835-0.309l0.029-0.033 8.136-6.794 0.058-0.019c0.907-0.334 1.483-0.797 1.717-1.374 0.266-0.653-0.008-1.255-0.011-1.261l-7.45-15.494z" fill="#F37974"/>
+<path d="m121.39 253.15h-70.36v-3.841c0-0.305 0.248-0.551 0.552-0.551h69.263c0.3 0 0.548 0.247 0.548 0.551v3.84zm-2.32 2.31l-0.218-0.037-0.254 0.048-0.208 0.145-0.142 0.207-0.05 0.255 0.05 0.255 0.142 0.211 0.208 0.138 0.254 0.055 0.313-0.076 0.235-0.214 0.039-0.03 0.043 0.011 0.278 0.192 0.024 0.037-0.008 0.041-0.182 0.207-0.218 0.152-0.255 0.101-0.27 0.035-0.429-0.088-0.354-0.237-0.237-0.354-0.086-0.435 0.086-0.429 0.237-0.353 0.354-0.242 0.429-0.086 0.43 0.086 0.354 0.242 0.015-0.013 0.188-0.136h0.047l0.026 0.041v0.84l-0.015 0.039-0.048 0.006-0.794-0.272-0.031-0.041 0.015-0.043 0.189-0.132 0.029-0.021-0.19-0.12zm-57.63 1.61v-1.832l0.266-0.268h54.416l0.268 0.268v1.832l-0.268 0.263h-54.414l-0.266-0.26zm-2.587-0.51v0.637h-0.602v-1.114h-0.391l1.207-1.11 1.209 1.11h-0.391v1.114h-0.619v-0.637h-0.413zm-3.65 0.13v-1.106h0.902v-0.444l1.143 0.997-1.143 0.996v-0.441h-0.902zm-0.987-1.11v1.106h-0.904v0.441l-1.14-0.996 1.14-0.997v0.444h0.904zm67.174 8.18v37.026c0 0.303-0.249 0.551-0.548 0.551h-69.257c-0.303 0-0.548-0.248-0.548-0.551v-41.674h70.36v4.65zm-0.54-15.66h-69.267c-0.667 0-1.211 0.542-1.211 1.209v51.481c0 0.663 0.544 1.207 1.211 1.207h69.263c0.662 0 1.209-0.544 1.209-1.207v-51.481c0-0.67-0.55-1.21-1.21-1.21" fill="#fff"/>
+<path d="m115.18 250.28c0.373 0 0.674 0.302 0.674 0.675 0 0.372-0.301 0.672-0.674 0.672-0.371 0-0.672-0.3-0.672-0.672-0.01-0.38 0.29-0.68 0.67-0.68" fill="#F37974"/>
+<path d="m117.2 250.28c0.372 0 0.672 0.302 0.672 0.675 0 0.372-0.3 0.672-0.672 0.672-0.371 0-0.673-0.3-0.673-0.672 0-0.38 0.3-0.68 0.67-0.68" fill="#F37974"/>
+<path d="m119.22 250.28c0.373 0 0.673 0.302 0.673 0.675 0 0.372-0.3 0.672-0.673 0.672-0.371 0-0.674-0.3-0.674-0.672-0.01-0.38 0.3-0.68 0.67-0.68" fill="#F37974"/>
+<polygon points="115.51 266.01 111.94 269.4 108.91 266.91 105.29 268.48 101.7 270.98 96.958 271.63 92.061 268.71 87.003 272.64 80.599 273.48 78.353 270.98 74.904 271.86 71.535 266.91 66.627 272.08 63.209 270.95 59.068 273 56.182 270.95 51.53 274.65 121.39 274.65 121.39 263.76 118.83 267.92" fill="#F37974"/>
+<polygon points="51.53 274.65 51.03 274.65 51.03 275.44 121.4 275.44 121.4 275.04 121.4 274.65" fill="#fff"/>
+<path d="m107.83 287.92v-7.434c-4.065 0.087-7.343 3.406-7.343 7.503 0 2.01 0.799 3.841 2.085 5.188l5.25-5.26z" fill="#F37974"/>
+<path d="m108 295.51c4.152 0 7.516-3.364 7.516-7.516 0-4.096-3.271-7.416-7.347-7.505v7.505l-0.047 0.118-5.309 5.307c1.35 1.3 3.17 2.1 5.19 2.1" fill="#fff"/>
+<path d="m59.873 295.51c0.771 0 1.399-0.622 1.399-1.393 0-0.268-0.084-0.519-0.214-0.732l5.77-5.77c0.213 0.129 0.462 0.208 0.732 0.208 0.385 0 0.731-0.154 0.982-0.401l6.219 3.895-0.073 0.447c0 0.777 0.622 1.397 1.395 1.397 0.768 0 1.388-0.62 1.388-1.397 0-0.195-0.034-0.372-0.105-0.545l6.768-4.963c0.244 0.208 0.562 0.335 0.91 0.335 0.766 0 1.39-0.624 1.39-1.396s-0.624-1.39-1.39-1.39c-0.776 0-1.393 0.623-1.393 1.39 0 0.194 0.039 0.377 0.104 0.546l-6.769 4.967c-0.242-0.21-0.56-0.333-0.903-0.333-0.381 0-0.729 0.151-0.979 0.402l-6.226-3.895 0.076-0.451c0-0.771-0.624-1.397-1.395-1.397s-1.395 0.626-1.395 1.397c0 0.27 0.078 0.521 0.212 0.731l-5.77 5.77c-0.21-0.129-0.463-0.208-0.733-0.208-0.767 0-1.393 0.626-1.393 1.393 0.004 0.75 0.626 1.38 1.393 1.38" fill="#fff"/>
+<rect width="562.17" height="674.12" fill="none"/>
+<rect width="562.17" height="674.12" fill="none"/>
+</svg>
