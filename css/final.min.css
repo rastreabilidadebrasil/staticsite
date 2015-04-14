@@ -47,13 +47,18 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
  }
 
  .mybutton.medium a, .mybutton.medium button {
-     font-size: 18px !important;
-
+     font-size: 22px !important;
+     line-height: 50px;
  }
 
+.grafico-turnkey1, .grafico-turnkey2 {
+  margin-left: 60px;
+  padding-left: 20px;
+}
+
  .mybutton.medium a span, .mybutton.medium button span {
-     padding: 0px 40px !important;
-     font-weight: bold;
+     padding: 0px 60px !important;
+  font-weight: normal;
  }
 
  #turnkey .mybutton a span, #turnkey .mybutton button span, #turnkey .csstransforms3d .mybutton a:hover span::before, #turnkey .csstransforms3d .mybutton button:hover span::before {
@@ -142,6 +147,11 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
  .bg-section-gerencia {
      background-image: url("../img/bg-gerencia.jpg");
      padding-bottom: 0;
+ }
+ 
+ .bg-section-gerencia2 {
+     background-color: #0877bd;
+     padding-bottom: 0px;
  }
 
  .background-contato {
@@ -339,7 +349,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
  ul.lista-empresa {
      list-style-type: none;
      padding: 0px;
-     margin: 0px 0px 0px -25px;
+     margin: 15px 0px 15px -25px;
      list-style-position: outside;
  }
 
@@ -352,6 +362,11 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
      text-indent: 25px;
 
  }
+ 
+ .lista-estrutura {
+     padding-left: 20px;
+ }
+
 
  .circulo {
      border-radius: 50%;
@@ -362,10 +377,11 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
      margin: 0 5px 2px 5px;
  }
 
- .icone-sobre, .icone-produto, .icone-objetivo {
+ .icone-sobre, .icone-produto, .icone-objetivo, .icone-estrutura {
      float: left;
      height: 95px;
      width: 110px;
+     margin-left:60px;
  }
 
  .icone-sobre {
@@ -381,6 +397,10 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
  .icone-objetivo {
      background-image: url(../img/icone-objetivo.svg);
      background-image: url(../img/icone-objetivo.png);
+ }
+ 
+ .icone-estrutura {
+     background-image: url(../img/icone-estrutura.png);
  }
 
  .box-gerencia-etapas {
@@ -482,7 +502,6 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 
  .subtitulo-porque span {
      color:#f37974;
-     font-size: 110px;
  }
 
  .grafico-turnkey1, .grafico-turnkey2 {
@@ -659,9 +678,13 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
  }
 
  .texto-empresa {
-     width: 250px;
+     width: 320px;
      padding-left: 0;
      float: left;
+ }
+ 
+ .texto-estrutura {
+     width: 340px !important;
  }
 
  .texto-flexibilidade h3:first-of-type {
@@ -697,7 +720,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 
  .texto-protocolo1 {
      margin-top: 235px;
-     width: 380px !important;
+     width: 410px !important;
      float: left;
      margin-left: -10px;
  }
@@ -966,11 +989,22 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 
  }
  /* fim */ 
-
- @media screen and (max-width: 1375px) {
+  @media screen and (max-width: 1485px) {
      .navbar-cinza .nav > li > a {
          padding: 20px 5px;
      }
+
+ }
+
+ @media screen and (max-width: 1375px) {
+      .navbar-azul .nav > li > a {
+         padding: 20px 5px;
+     }
+
+ }
+ 
+ @media screen and (max-width: 1335px) {
+     
 
  }
 
@@ -985,6 +1019,13 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
          margin-left: 0 !important;
      }
  }
+ 
+  @media screen and (max-width: 1285px) {
+      .navbar-cinza .nav > li a {
+          font-size:10px;
+
+      }
+  }
 
  @media screen and (max-width: 1230px) {
      .row-parceiros {
@@ -1021,12 +1062,6 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
      }
  }
 
- @media screen and (max-width: 1210px) {
-     .navbar-cinza .nav > li a {
-         font-size: 10px;
-         padding: 10px 5px;
-     }
- }
 
 
  @media screen and (max-width: 1190px) {
@@ -1048,7 +1083,13 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
          margin-right: 300px;
      }
  }
-
+ 
+  @media screen and (max-width: 1135px) {
+      .navbar-azul .nav > li a {
+          font-size: 11px;
+      }
+  }
+  
  @media screen and (max-width: 1125px) {
      .navbar-cinza {
          height: 47px;
@@ -1059,119 +1100,8 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
      }
 
  }
-
-
- @media screen and (max-width: 1060px) {
-     .navbar-azul {
-         height: 50px;
-     }
-
-     .navbar-azul .nav > li {
-         height: 50px;
-     }
-
-     .navbar-azul .nav > li a {
-         font-size: 10px;
-         padding: 10px 5px;
-     }
-
-
- }
-
- @media screen and (max-width: 1050px) {
-     .box-first-logo {
-         margin-left: 2%;
-     }
-
-     .box-second-logo {
-         margin-left: 15%;
-     }
-
-     .box-terceiro-logo {
-         width: auto !important;
-         margin-right: 150px;
-     }
-     
-  .modal-video {
-     width: 820px !important;
- }
- 
- #piloto-vimeo iframe {
-     width: 760px !important;
-    
- }
-
- .close-video {
-     margin-left: 770px;
- }
- }
-
-
- @media screen and (max-width: 1024px) {
-     .box-geral-service {
-         width: 95%;
-         margin-left: 3%;
-     }
-     .icone-sobre, .icone-produto, .icone-objetivo {
-         height: 60px !important;
-         width: 70px !important;
-     }
-
-     .icone-sobre {
-         background-image: url(../img/icone-sobre-p.png);
-     }
-
-     .icone-produto {
-         background-image: url(../img/icone-produto-p.png);
-     }
-
-     .icone-objetivo {
-         background-image: url(../img/icone-objetivo-p.png);
-     }
-
-     .gerencia-img2 {
-         margin-left:0;
-     }
-
-     .col1-gerencia {
-         margin-right: 0;
-     }
-
-     .texto-flexibilidade {
-         margin-left: 0;
-     }
-
-     .gerencia-img2 img {
-         width: 500px;
-     }
-
-     .col-espaco {
-         width: 160px !important;
-     }
-
-     .row, .row-parceiros {
-         width: auto;
-     }
-
-     .linha-laranja {
-         width: 40%; 
-     }
-
-
-     .texto-empresa {
-         width: 245px;
-
-     }
-
-     #home .navbar {
-         min-height: 0;
-     }
-
-     .gerencia-img2 {
-         margin-left: 50px;
-     }
-
-     .navbar-default .navbar-collapse,.navbar-default .navbar-form{border-color:#000}.navbar-collapse{max-height:none;padding:0}.navbar-nav{margin:0}.navbar .nav>li{float:none}.navbar .nav>li>a{padding:0 20px;line-height:40px;border-bottom:1px solid #333;font-size:12px;padding:0 13px}.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus{color:#fff}
+  @media screen and (max-width: 1100px) {
+ .navbar-default .navbar-collapse,.navbar-default .navbar-form{border-color:#000}.navbar-collapse{max-height:none;padding:0}.navbar-nav{margin:0}.navbar .nav>li{float:none}.navbar .nav>li>a{padding:0 20px;line-height:40px;border-bottom:1px solid #333;font-size:12px;padding:0 13px}.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus{color:#fff}
 
      .navbar-header {
          float: none;
@@ -1224,7 +1154,131 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
      .navbar-azul .nav > li, .navbar-cinza .nav > li {
          height: auto;
      }
+  }
+
+ @media screen and (max-width: 1060px) {
+     .navbar-azul {
+        
+         
+     }
+
+     .navbar-azul .nav > li {
+        
+         background-color: #084679 !important;
+     }
+
+     .navbar-azul .nav > li a {
+         
+     }
+
+
  }
+
+ @media screen and (max-width: 1050px) {
+     .box-first-logo {
+         margin-left: 2%;
+     }
+
+     .box-second-logo {
+         margin-left: 15%;
+     }
+
+     .box-terceiro-logo {
+         width: auto !important;
+         margin-right: 150px;
+     }
+     
+  .modal-video {
+     width: 820px !important;
+ }
+ 
+ #piloto-vimeo iframe {
+     width: 760px !important;
+    
+ }
+
+ .close-video {
+     margin-left: 770px;
+ }
+ }
+
+
+ @media screen and (max-width: 1024px) {
+     .box-geral-service {
+         width: 95%;
+         margin-left: 3%;
+     }
+     .icone-sobre, .icone-produto, .icone-objetivo, .icone-estrutura {
+         height: 60px !important;
+         width: 70px !important;
+     }
+
+     .icone-sobre {
+         background-image: url(../img/icone-sobre-p.png);
+     }
+
+     .icone-produto {
+         background-image: url(../img/icone-produto-p.png);
+     }
+
+     .icone-objetivo {
+         background-image: url(../img/icone-objetivo-p.png);
+     }
+     
+     .icone-estrutura {
+         background-image: url(../img/icone-estrutura-p.png);
+     }
+
+     .gerencia-img2 {
+         margin-left:0;
+     }
+
+     .col1-gerencia {
+         margin-right: 0;
+     }
+
+     .texto-flexibilidade {
+         margin-left: 0;
+     }
+
+     .gerencia-img2 img {
+         width: 500px;
+     }
+
+     .col-espaco {
+         width: 160px !important;
+     }
+
+     .row, .row-parceiros {
+         width: auto;
+     }
+
+     .linha-laranja {
+         width: 40%; 
+     }
+
+
+     .texto-empresa {
+         width: 245px;
+
+     }
+
+     #home .navbar {
+         min-height: 0;
+     }
+
+     .gerencia-img2 {
+         margin-left: 50px;
+     }
+
+     
+ }
+ 
+  @media screen and (max-width: 1005px) {
+ .grafico-turnkey1, .grafico-turnkey2 {
+         padding-left: 0;
+     }
+  }
 
  @media screen and (max-width: 1000px) {
      .navbar-cinza {
@@ -1287,8 +1341,8 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
          margin-top: 90px;
      }
 
-     .texto-empresa {
-         width: 235px;
+     .texto-empresa, texto-estrutura {
+         width: 235px !important;
          float: left;
      }
 
@@ -1374,6 +1428,12 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
      }
 
  }
+ 
+ @media screen and (max-width: 980px) {
+ .grafico-turnkey1, .grafico-turnkey2 {
+         margin-left: 0;
+     }
+ }
 
  @media screen and (max-width: 960px) {
      .texto-empresa {
@@ -1394,6 +1454,8 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
          width: 100%;
          height: auto;
      }
+     
+     
  }
 
  @media screen and (max-width: 905px) {
@@ -1425,13 +1487,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
          text-align: center;
      }
 
-     .texto-empresa {
-         width: 90%;
-     }
-
-     .icone-sobre, .icone-produto, .icone-objetivo {
-         margin-top: 10px;
-     }
+     
 
      .cobertura-box1 {
          width: 100%;
@@ -1533,6 +1589,10 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
          width: 90%;
          padding-right: 20px;
      }
+     
+     .icone-sobre, .icone-objetivo {
+         margin-left: 0;
+     }
  }
 
  @media screen and (max-width: 809px) {
@@ -1543,6 +1603,10 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 
      .titulo-geral-turnkey {
          width: 100%;
+     }
+     
+     .bg-section-gerencia {
+         padding-bottom: 20px;
      }
  }
 
@@ -1625,6 +1689,11 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
      .botao-gerencia {
          margin-left: 30%;
      }
+     
+     .mybutton.medium a, .mybutton.medium button {
+        font-size: 18px !important;
+        line-height: 30px;
+      }
  }
 
  @media screen and (max-width: 768px) {
@@ -1652,6 +1721,27 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
      }
  }
  
+ @media screen and (max-width: 720px) {
+     .texto-empresa, .texto-estrutura {
+         width: 80% !important;
+     }
+
+     .icone-sobre, .icone-produto, .icone-objetivo, .icone-estrutura {
+         margin-top: 10px;
+         margin-left:0;
+     }
+     
+     ul.lista-empresa {
+         margin-left: 0;
+     }
+     
+     .row-empresa:first-of-type {
+         margin-bottom: 0 !important;
+     }
+     
+      
+ }
+ 
   @media screen and (max-width: 735px) {
  .box-titulo-turnkey h2 br {
          display: inherit !important;
@@ -1666,6 +1756,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
          margin-left: 50%;
          margin-top: -70px;
      }
+     
   }
   
   @media screen and (max-width: 690px) {
@@ -2060,9 +2151,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
          margin-left: 60px;
      }
 
-     .bg-section-gerencia {
-         padding-bottom: 0;
-     }
+
 
  }
 
@@ -2160,6 +2249,14 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
      .logo-atlantic, .logo-maquidrex, .logo-scanware, .logo-amazon, .logo-pollux, .logo-ms, .logo-mcpack, .logo-atlantic, .logo-neogrid {
          width: 250px;
          height: auto;
+     }
+     
+     .texto-empresa {
+         width: 70% !important;
+     }
+     
+     .grafico-protocolo2 {
+        float: left;
      }
  }
  
