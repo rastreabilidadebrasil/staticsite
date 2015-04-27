@@ -551,6 +551,11 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
      float: left;
      background-image: url(../img/icone-cobertura1.png);
  }
+ 
+ .icone-cobertura1-eng {
+     margin-top: -15px;
+     height: 60px !important;
+ }
 
  .icone-cobertura2 {
      width: 63px;
@@ -725,13 +730,13 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
      margin-top: 235px;
      width: 410px !important;
      float: left;
-     margin-left: -10px;
+     margin-left: 10px;
  }
 
  .grafico-protocolo2 {
      width: 336px !important;
      float: left;
-     margin-top: 50px;
+     margin-top: 30px;
 
  }
 
