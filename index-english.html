@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <title>R&B - Rastreabilidade Brasil</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="target-densitydpi=device-dpi, initial-scale=1.0, user-scalable=no" />
+        <meta name="description" content="Rastreabilidade Brasil" />
+        <meta name="author" content="Pilha Digital">
+
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="img/ico-16.ico">
+        <link rel="apple-touch-icon" href="img/ico-57.png" sizes="57x57">
+        <link rel="apple-touch-icon" href="img/ico-72.png" sizes="72x72">
+        <link rel="apple-touch-icon" href="img/ico-114.png" sizes="114x114">
+        <link rel="apple-touch-icon" href="img/ico-144.png" sizes="144x144">
+
+        <!-- GoogleFontFamily -->
+        <link href="fonts/stylesheet.css" rel="stylesheet" type="text/css" />
+
+        <!-- Stylesheet -->
+        <link href="css/versao_ingles.css" rel="stylesheet" type="text/css" />
+        <link href="css/final.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/jquery.countdown.css" rel="stylesheet" type="text/css" />
+<!--<link href="js/jcountdown/jcountdown.css" rel="stylesheet" type="text/css">-->
+
+
+
+        <!-- Primary color theme -->
+        <link id="primary_color_scheme" href="css/color/blu.css" rel="stylesheet">
+
+
+
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+
+
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="75">
+        <div id="modal-cronometro" class="modal fade" role="dialog" aria-labelledby="gridSystemModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-cronometro">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="close-cronometro" data-dismiss="modal"></div>
+                        <!--<button type="button" class="close close-cronometro" data-dismiss="modal" aria-label="Close">
+                                <img src="img/close-cronometro.png"/>
+                        </button>-->
+                    </div>
+                    <div class="modal-body">
+                        <h3>Countdown for the pilot implementation of traceability of the <span style="color:#1D90D9;">Anvisa's RDC 54</span></h3>
+                        <!--<div id="DIV_TO_PLACE_COUNTDOWN" class="box-cronometro2"></div>-->
+                        <div id="defaultCountdown"></div>
+
+                    </div>
+
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        
+      
+
+        <!-- Intro loader 
+        <div class="mask">
+            <div id="intro-loader"></div>
+        </div>
+        <!-- Intro loader -->
+
+
+        <!-- Home Section -->
+        <section id="home" class="intro-pattern">
+            <!-- Navbar -->
+            <div id="navigation" class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="navbar-inner navbar-azul">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <i class="fa fa-bars fa-2x"></i>
+                        </button>
+                        <a id="brand-home" class="navbar-brand" style="display: none;" href="#home"> <img src="img/logo-cinza.svg" width="150" height="63" alt=""> </a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-home">
+                            <li class="dropdown">
+                                <a href="#home" class="int-collapse-menu">Home</a>
+                            </li>
+                            <li>
+                                <a href="#reb" class="int-collapse-menu">R&B Template</a>
+                            </li>
+                            <!--<li>
+                                    <a href="#about" class="int-collapse-menu o-que-rastreabilidade">o que é rastreabilidade</a>
+                            </li>-->
+                            <li>
+                                <a href="#service" class="int-collapse-menu">our company</a>
+                            </li>
+                            <li>
+                                <a href="#cases" class="int-collapse-menu">Cases</a>
+                            </li>
+                            <li>
+                                <a href="#gerencia" class="int-collapse-menu">SLA template</a>
+                            </li>
+                            <li>
+                                <a href="#turnkey" class="int-collapse-menu">turn key</a>
+                            </li>
+                            <li>
+                                <a href="#leis" class="int-collapse-menu">protocols</a>
+                            </li>
+                            <li>
+                                <a href="#parceiros" class="int-collapse-menu">partnership</a>
+                            </li>
+                            <li>
+                                <a href="#cobertura" class="int-collapse-menu">coverage</a>
+                            </li>
+                            <li class="menu-item-longo">
+                                <a href="#flexibilidade" class="int-collapse-menu">Integration Flexibility</a>
+                            </li>
+                            <li>
+                                <a href="#dashboard" class="int-collapse-menu">r&b<br/> dashboard</a>
+                            </li>
+                            <!--<li>
+                                    <a href="#portfolio" class="int-collapse-menu">produtos e soluções</a>
+                            </li>-->
+                            <li>
+                                <a href="#contato" class="int-collapse-menu">contact</a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="int-collapse-menu">
+                                    <img src="img/brasil.png" alt="PT-BR" title="PT-BR"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index-english.html" class="int-collapse-menu">
+                                    <img src="img/eua.png" alt="EN" title="EN"/>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Navbar -->
+            <div class="text-slider">
+                <div class="intro-item">
+                    <div class="intro-flexslider">
+                        <ul class="slides">
+
+                            <!-- Slide Item -->
+                            <li>
+                                <div class="section-title text-center">
+                                    <h1><img src="./img/logo-grande.png" class="img-responsive img-logo-home"/></h1>
+                                    <div>
+                                        <h2 class="subtitulo-reb" style="line-height: 30px;">The complete track and trace solution<br> for your laboratory.</h2>
+                                        <span class="linha-laranja"></span>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- Slide Item -->
+
+                        </ul>
+                    </div>
+                    <div class="element-line" style="margin-top: 0;">
+                        <p class=" lead text-center">
+                            track <i class="circulo"></i> data <i class="circulo"></i> custody 
+                        </p>
+                    </div>
+                    <!--<div class="mybutton ultra">
+                            <a class="start-button" href="#about"> <span>Entre e saiba mais</span> </a>
+                    </div>-->
+                </div>
+            </div>
+        </section>
+        <!-- Home Section -->
+
+
+        <!-- Navbar 
+        <div id="navigation" class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="navbar-inner">
+                        <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <i class="fa fa-bars fa-2x"></i>
+                                </button>
+                                <a id="brand" class="navbar-brand" href="#home"> <img src="img/logo-reb.png" alt=""> </a>
+                        </div>
+                        <div class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                        <li class="dropdown">
+                                                <a href="#home" class="dropdown-toggle" data-toggle="dropdown">Home <i class="fa fa-angle-down"></i></a>
+                                        </li>
+                                        <li>
+                                                <a href="#reb" class="int-collapse-menu">Por que R&B?</a>
+                                        </li>
+        <!--<li>
+                <a href="#about" class="int-collapse-menu o-que-rastreabilidade">o que é rastreabilidade</a>
+        </li>
+        <li>
+                <a href="#service" class="int-collapse-menu">nossa empresa</a>
+        </li>
+        <li>
+                <a href="#gerencia" class="int-collapse-menu">gerência total</a>
+        </li>
+        <li>
+                <a href="#turnkey" class="int-collapse-menu">turn key</a>
+        </li>
+        <li>
+                <a href="#leis" class="int-collapse-menu">leis</a>
+        </li>
+        <li>
+                <a href="#parceiros" class="int-collapse-menu">parceiros</a>
+        </li>
+        <li>
+                <a href="#cobertura" class="int-collapse-menu">cobertura</a>
+        </li>
+        <li>
+                <a href="#flexibilidade" class="int-collapse-menu">flexibilidade de integração</a>
+        </li>
+        <li>
+                <a href="#dashboard" class="int-collapse-menu">dashboard</a>
+        </li>
+        <!--<li>
+                <a href="#portfolio" class="int-collapse-menu">produtos e soluções</a>
+        </li>
+        <li>
+                <a href="#contato" class="int-collapse-menu">contato</a>
+        </li>
+</ul>
+</div>
+</div>
+</div>
+        <!-- Navbar -->
+
+        <!-- Por que reb Section -->
+        <section id="reb" class="section-content bg-section-reb">
+            <div class="container">
+
+                <!-- Section title -->
+                <div class="section-title text-center">
+                    <h1 class="subtitulo-porque item_right"><span>R&B</span> Template</h1>
+                </div>
+                <!-- Section title -->
+
+
+
+                <div class="row">
+                    <div class="col-md-12 box-video item_left" style="width: 960px;margin: 0 auto;">
+                        <div id="vimeo" class="element-line">
+                            
+                            <div class="element-line">										
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Por que reb Section -->
+
+        <!-- About Section
+        <section id="about" class="section-content">
+                <div class="container">
+
+        <!-- Section title 
+        <div class="section-title text-center">
+                <div>
+                        <span class="line big"></span>
+                        <span>rdc 54</span>
+                        <span class="line big"></span>
+                </div>
+                <h1 class="item_right">o que é rastreabilidade</h1>
+                <div>
+                        <span class="line"></span>
+                        <span>resolução da diretoria colegiada</span>
+                        <span class="line"></span>
+                </div>
+        </div>
+        <div class="element-line">
+                <p class=" lead text-center">
+                        A RDC 54 – Anvisa determina que os laborátórios deverão gerar os IUMs, (identificação única de medicamentos), em cada cartucho disponibilizado para a venda no mercado nacional.
+                </p>
+                </div>
+        <!-- Section title 
+
+        <div class="row">
+                <div class="col-md-12">
+                        <div class="element-line">
+                                <div class="item_left">
+                                        <img src="img/devices.jpg" class="img-responsive img-center" alt="">
+                                </div>
+                        </div>
+                </div>
+
+        <!-- item media 
+        <div class="col-md-12">
+                <div class="element-line" style="text-align: center;">
+                    <div class="mybutton sem-animacao ultra">
+                        
+                                                                                <a class="start-button" href="doc/RDC_54.pdf" target="_blank"><span data-hover="clique e veja a rdc 54 completa">clique e veja a rdc 54 completa</span></a>
+                    </div>															
+                </div>
+        </div>
+        <!-- item media 
+        <!-- item media 
+        <div class="col-md-12">
+            <div class="element-line">
+                <p class=" lead text-center">
+                    O restante da cadeia deverá fornecer a movimentação destes dados ao laboratório, que deverá armazenar os mesmos durante, no mínimo 1 ano após a dispersão dos medicamentos.
+                </p>
+            </div>
+        </div>
+</div>
+</div>
+</section>
+        <!-- About Section -->
+
+        <!-- Parallax Container 
+        <div id="one-parallax" class="parallax" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+                <div class="parallax-overlay cinza">
+                        <div class="section-content">
+        <!-- Section title 
+    <div class="section-title text-center">
+            <div>
+                    <span class="line big"></span>
+                    <span>rdc 54</span>
+                    <span class="line big"></span>
+            </div>
+        <h1 class="item_right" style="color: #808080">visão geral da rdc 54/2013 anvisa</h1>
+            <div>
+                    <span class="line"></span>
+                    <span>resolução da diretoria colegiada</span>
+                    <span class="line"></span>
+            </div>
+    </div>
+    <div class="element-line">
+            <p class=" lead text-center">
+                    O Sistema Nacional de Controle de Medicamentos (lei 11.903/2009) foi oficialmente publicado no Diário Oficial da União em 11/Dez/13. A lei irá demandar investimentos por parte de laboratórios, distribuidores e farmácias.
+            </p>
+            </div>
+        <!-- Section title 
+        
+        <div class="row visao_geral">
+                
+
+            <div class="col-md-12" style="margin-top: 50px;">
+                                    <div class="mybutton sem-animacao ultra">
+                                        <a class="start-button" href="" style="width: 100%;text-align: center;"> <span data-hover="investimentos para adequação à lei 11.903/2009" style="width: 98%;">investimentos para adequação à lei 11.903/2009</span> </a>
+                                    </div>
+                            </div>
+            <div class="col-md-4" style="margin-top: 15px;">
+                                    <div class="mybutton sem-animacao ultra">
+                                        <a class="start-button" href="" style="width: 100%;text-align: center;"> <span data-hover="laboratórios" style="width: 94%;background: #808080;">laboratórios</span> </a>
+                                    </div>
+                <ul>
+                    <li>Hardware para impressão do IUM / datamatrix</li>
+                    <li>Software para geração do IUM e track & trace</li>
+                    <li>Data center para armazenagem e auditoria ANVISA (min. 3 anos)</li>
+                    
+                    
+                </ul>
+                            </div>
+            <div class="col-md-4" style="margin-top: 15px;">
+                                                <div class="mybutton ultra sem-animacao">
+                                                    <a class="start-button" href="" style="width: 100%;text-align: center;"> <span data-hover="distribuidoras" style="width: 95%;background: #808080;">distribuidoras</span> </a>
+                                                </div>
+                <ul>
+                    <li>Software para track & trace</li>
+                    <li>Fornecimento dos dados aos laboratórios</li>
+                </ul>
+                                        </div>
+
+            <div class="col-md-4" style="margin-top: 15px;">
+                                    <div class="mybutton ultra sem-animacao">
+                                        <a class="start-button" href="" style="width: 100%;text-align: center;"> <span data-hover="farmácias" style="width: 95%;background: #808080;">farmácias</span> </a>
+                                    </div>
+                <ul>
+                    <li>Software para track & trace</li>
+                    <li>Fornecimento dos dados aos laboratórios</li>
+                </ul>
+            </div>
+            <div class="text-center esquema">
+                <img class="img-responsive" src="img/esquema.jpg" />
+            </div>
+        </div>
+        </div>
+</div>
+</div>
+        <!-- Parallax Container -->
+
+        <!-- Service Section -->
+        <section id="service" class="section-content nossa-empresa-background section-topico">
+            <!-- Section title -->
+            <div class="section-title text-center box-subtitulo">
+                <h2 class="subtitulo-reb item_right"><i class="sprite-seta-laranja"></i> Get to know more about R&B</h2>
+            </div>
+            <!-- Section title -->
+            <div class="box-geral-service">
+            <div class="row texto-branco row-empresa item_left" style="margin: 0 auto 80px auto;float: none;">
+                <div class="boxes-empresa">
+                    <div class="icone-sobre"></div>
+                    <div class="col-md-6 texto-empresa">
+                        <h3 class="subtitulo-item">About R&B</h3>
+                        <p>Founded in September/2013, with resources from prestigious financial and strategic investors, R&B has became a reference at tracking and tracing medicinal products and data custody.</p>
+                    </div>
+                    <div class="icone-produto"></div>
+                    <div class="col-md-6 texto-empresa texto-empresa-2">
+                        <h3 class="subtitulo-item">Products</h3>
+                        <p>R&B has developed 3 main products for pharmaceutical sector:</p>
+                        <ul class="lista-empresa">
+                            <li><strong>R&B</strong>TRACK,</li>
+                            <li>DATAFARMA<strong>R&B</strong></li>
+                            <li><strong>R&B</strong>CONSUMER</li>
+                        </ul>
+                        <p>That allow all the elements of the supply chain to fulfil the ANVISA's RD54 standards.</p>
+                    </div>
+                </div>
+            </div>
+                <div class="row texto-branco row-empresa item_left" style="margin: 0 auto;float: none;">
+                    <div class="icone-objetivo"></div>
+                    <div class="col-md-6 texto-empresa">
+                        <h3 class="subtitulo-item">Our Goal</h3>
+                        <p>To become the main business of traceability of the country, attending the principal sectors with excellence.</p>
+                    </div>
+                    <div class="icone-estrutura"></div>
+                    <div class="col-md-6 texto-empresa texto-estrutura">
+                        <h3 class="subtitulo-item">Structure</h3>
+                        <ul class="lista-estrutura">
+                            <li>São Paulo</li>
+                            <li>Rio de Janeiro</li>
+                            <li>Joinville ( Unit R&B/Neogrid )</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- Service Section -->
+
+        <!-- Gerência Section -->
+        <section id="cases" class="section-content bg-section-gerencia">
+            
+            <div class="box-geral">
+            <div class="row box-bg-medicacao">
+                <!--<div class="col-md-3 col-md-offset-2"></div>-->
+                <div class="col-md-5 box-chamada-gerencia box-chamada-gerencia-eng">
+                    <div class="section-title title-gerencia">
+                        <h2 class="item_right" style="margin-bottom: 20px;">
+                            <span class="font-book font-book-eng">First track</span><br> 
+                            <span class="font-bold font-bold-eng">and trace pilot</span> <br>
+                            <span class="font-black font-black-eng">in Brazil</span>
+                        </h2>
+                        <a class="botao-gerencia botao-gerencia-eng" data-target="#modal-vimeo">Click and meet the pilot-project</a>
+                        <!--<a class="botao-gerencia item_left" href="https://vimeo.com/121151179" target="_blank">Clique e veja o piloto</a>-->
+                    </div>  
+                </div>
+            </div>
+                <div class="box-medicacao-800px" style="display: none;"></div>    
+            </div>
+        </section>
+        <section id="gerencia" class="section-content bg-section-gerencia2" style="padding-top: 0;">
+            <div class="row box-gerencia-etapas">
+                <div class="section-title text-center box-subtitulo">
+                        <h2 class="subtitulo-reb item_right"><i class="sprite-seta-laranja"></i> Attention in all the steps</h2>
+                </div>
+                <div class="box-geral">
+                    <div class="row texto-branco row-gerencia item_left">
+                        <div class="col-md-4 col1-gerencia">
+                            <h3 class="subtitulo-item">Dedication and experience in the entire process</h3>
+                            <p>R&B not offers only data custody, but is also responsible for all data collecting and trace solution from the entire productive chain, since fabrication to selling, with agility and security guarantee.</p>
+                            <div class="gerencia-img1">
+                                <!--<img src="img/gerencia-img1.svg" class="img1-gerencia-pt" width="498" height="263"/>-->
+                                <img src="img/gerencia-img1-eng.svg" class="img1-gerencia-eng" width="498" height="263"/>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col2-gerencia">
+                            <div class="gerencia-img2">
+                                <img src="img/gerencia-img2.svg" width="570" height="680"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="modal fade" id="modal-vimeo" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-video">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div id="close-video-cases" class="close-video" data-dismiss="modal"></div>
+                        <!--<button type="button" class="close close-cronometro" data-dismiss="modal" aria-label="Close">
+                                <img src="img/close-cronometro.png"/>
+                        </button>-->
+                    </div>
+                    <div class="modal-body">
+                        <div id="piloto-vimeo"></div>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+            </div>
+        </section>
+        <!-- Gerência Section -->
+
+        <!-- Portfolio Section 
+        <section id="portfolio" class="section-content">
+                <div class="container">
+
+        <!-- Section title 
+        <div class="section-title text-center">
+                <div>
+                        <span class="line big"></span>
+                        <span>conheça nossos</span>
+                        <span class="line big"></span>
+                </div>
+                <h1 class="item_right" style="color: #7F7F7F;">produtos e soluções</h1>
+                <div>
+                        <span class="line"></span>
+                        <span>QUE ATENDEM A RDC 54</span>
+                        <span class="line"></span>
+                </div>
+        </div>
+        <!-- Section title 
+</div>
+
+<div class="row software-hardware">
+    <div class="col-md-4 col-md-offset-2 software">
+            <img src="img/pc-servicos.png" class="img-responsive" title="Software R&B" />
+            <h2>Software</h2>
+            <p>Desenvolvido em parceria com a Atlantic Zeizer, empresa Alemã líder em geração e rastreabilidade de dados de segurança na Europa, possuímos diversos módulos aplicaveis às necessidades das empresas brasileiras</p>
+            <img src="img/atlantic-zeiser.jpg" title="Atlantic Zeiser" />
+    </div>
+    <div class="col-md-4 hardware">
+        <img src="img/hardware-servicos.jpg" class="img-responsive"  title="Hardware R&B" />
+        <h2>Hardware</h2>
+        <p><b>Nacional: </b>Nosso hardware foi totalmente desenvolvido no Brasil  
+            e é facilmente adaptável às linhas laboratoriais de produção.</p>
+        <p><b>Internacional: </b>Equipamento Scanware, integrado ao software, 
+            com impressão e verificação automática de dados em módulo compacto.</p>
+        <img src="img/scanware.jpg" title="Scanware" />
+    </div>
+</div>
+
+</section>
+        <!-- Portfolio Section -->
+
+        <!-- Parallax Container
+        <div id="three-parallax" class="parallax" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+                <div class="video-reb">
+                        <div class="section-content">
+                                <div class="container text-center">
+
+        <!-- Parallax title 
+        <div class="item_left">
+                <h1>Veja aqui o vídeo da nossa solução completa para a Rdc 54 Anvisa	</h1>
+                <p class="lead no-margin">
+                        Clique no vídeo para iniciar
+                </p>
+        </div>
+        <!-- Parallax title 
+
+        <!-- Parallax content 
+        <div class="parallax-content">
+                <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                        <div id="vimeo" class="element-line">
+
+                                <div class="element-line">										
+                                        
+                                </div>
+                        </div>
+                </div>
+        </div>
+        <!-- Parallax content 
+
+</div>
+</div>
+</div>
+</div>
+        <!-- Parallax Container -->
+
+        <!-- Turn Key Section -->
+        <section id="turnkey" class="section-content section-topico">
+           
+            <div class="section-title text-center box-subtitulo-cinza box-float">
+                <div class="box-geral">
+                <div class="row">
+                    <div class="col-md-12 item_right">
+                        <div class="box-titulo-turnkey">
+                            <h2 class="subtitulo-azul"><i class="sprite-seta-laranja"></i> The only company  <br style="display: none;">offering exclusive <span class="subtitulo-azul-eng solution1" style="display: none;"> solution</span></h2>
+                            
+                        </div>
+                        <div class="key key-eng"></div>
+                        <h2 class="subtitulo-azul subtitulo-azul-eng solution2">solution</h2>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="box-geral">
+            <div class="row item_left">
+                <div class="col-md-12">
+                    <div class="grafico-turnkey1">
+                        <img src="img/grafico1-turnkey-v2.png" width="900" height="355"/>
+                    </div>
+                    <p class="p-cinza-center">
+                        Due to the partnership between R&B and Amazon Brazil, all collected data is stored with maximum safety and efficiency, through the Amazon Brazil's data center, which reduces our costs, resulting in very attractive prices for our customers.
+                    </p>
+                </div>
+            </div>
+            <div class="row item_right">
+                <div class="col-md-12">
+                    <div class="grafico-turnkey2">
+                        <img src="img/grafico2-turnkey-v2.png" width="900" height="355"/>
+                    </div>
+                    <p class="p-cinza-center">
+                        DATAFARMA<strong>R&B</strong> possesses all requirements and both nacional and internacional security certifications such as: <strong>FEDRAMP, ISO 27001, OUTH 2.0, SOC3, PCI DSS LEVE 1</strong> and others.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="action form-button medium">
+                        <div class="mybutton medium bt-certificacao">
+                            <a class="start-button" target="_blank" href="doc/presentation_certifications_datafarmareb_english.pdf">
+                                <span class="bt-padrao start-button" data-hover="Download our certifications (PDF file)">Download our certifications (PDF file)</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- Turn Key Section -->
+
+        <!-- Protocolo Section -->
+        <section id="leis" class="section-content section-topico section-protocolos">
+            <div class="section-title text-center box-subtitulo">
+                <h2 class="subtitulo-reb item_right"><i class="sprite-seta-laranja"></i> Protocols</h2>
+            </div>
+            <div class="box-geral">
+            <div class="row texto-branco">
+                <div class="col-md-6 conteudo-protocolos">
+                    <div class="row item_left">
+                        <div class="col-md-4 grafico-protocolo1">
+                            <img src="img/icone1-protocolo.png"/>
+                        </div>
+                        <div class="col-md-6 texto-protocolo1">
+                            <h3 class="subtitulo-item">Always up to date</h3>
+                            <p>R&B is already updated with all government and industry communication protocols, responding with attention to requests on behalf of our clients.</p>
+                        </div>
+                    </div>
+                    <div class="row item_right">
+                        <div class="col-md-5 texto-protocolo2">
+                            <p>R&B technology is based on cloud computing solution with a set of servers to attend all the processing demand, which results in lower costs and best prices to our clients.</p>
+                        </div>
+                        <div class="col-md-4 grafico-protocolo2">
+                            <img src="img/icone2-protocolo.png"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- Protocolo Section -->
+
+        <!-- Parceiros Section -->
+        <section id="parceiros" class="section-content section-topico background-azulescuro">
+            <div class="section-title text-center box-subtitulo box-subtitulo-azulescuro">
+                <div class="box-geral">
+                <h2 class="subtitulo-reb item_right"><i class="sprite-seta-azulclaro"></i> Hardware, Software and Integration Partners</h2>
+                </div>
+            </div>
+            <div class="box-geral" style="padding-top: 40px;padding-bottom: 30px;">
+                <div class="row">
+            <div class="col-md-12">
+                <div class="box-2logos">
+                <div class="col-md-4 col-parceiro-logo">
+                    <div class="parceiro-logo">
+                        <a href="http://www.atlanticzeiser.com" target="_blank"><img class="logo-atlantic" src="img/atlantic.png" width="305" height="119"/></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-parceiro-logo">
+                    <div class="parceiro-logo">
+                        <a href="http://www.maquidrex.com.br" target="_blank"><img class="logo-maquidrex" src="img/maquidrex.png" width="305" height="86"/></a>
+                    </div>
+                </div>
+                </div>
+                <div class="box-2logos">
+                <div class="col-md-4 col-parceiro-logo">
+                    <div class="parceiro-logo">
+                        <a href="http://www.scanware.de" target="_blank"><img class="logo-scanware" src="img/scanware.png" width="270" height="125"/></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-parceiro-logo">
+                    <div class="parceiro-logo">
+                        <a href="http://www.pollux.com.br" target="_blank"><img class="logo-pollux" src="img/pollux.png" width="260" height="102"/></a>
+                    </div>
+                </div>
+                </div>
+                <div class="box-2logos">
+                <div class="col-md-4 col-parceiro-logo">
+                    <div class="parceiro-logo">
+                        <a href="http://www.mcpack.com.br" target="_blank"><img class="logo-mcpack" src="img/mcpack.png" width="270" height="125"/></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-parceiro-logo">
+                    <div class="parceiro-logo">
+                        <a href="http://www.ocs-cw.com/english" target="_blank"><img class="logo-ms" src="img/ms.png" width="270" height="125"/></a>
+                    </div>
+                </div>
+                </div>
+            
+            <div class="box-2logos">
+                <div class="col-md-4 col-parceiro-logo">
+                    <div class="parceiro-logo">
+                        <a href="http://aws.amazon.com/pt/" target="_blank"><img class="logo-amazon" src="img/amazon.png" width="300" height="138"/></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-parceiro-logo">
+                    <div class="parceiro-logo">
+                        <a href="http://www.neogrid.com" target="_blank"><img class="logo-neogrid" src="img/neogrid.png" width="320" height="113"/></a>
+                    </div>
+                </div>
+            </div>
+                <div class="col-md-4 col-parceiro-logo last-logo-row">
+                    <div class="parceiro-logo">
+                        <a href="http://grupotecnor.com.br/tecnor-industria/" target="_blank"><img class="tecnor" src="img/tecnor.png" width="250" height="86"/></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            <!--<div class="row row-parceiros item_right">
+                <div class="col-md-3 box-second-logo">
+                    <div class="parceiro-logo">
+                        <a href="http://www.pollux.com.br" target="_blank"><img src="img/pollux.png" width="196" height="90"/></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="parceiro-logo">
+                        <a href="http://grupotecnor.com.br/tecnor-industria/" target="_blank"><img src="img/tecnor.png" width="250" height="86"/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-parceiros item_left">
+                <div class="col-md-12 box-terceiro-logo">
+                    <div class="parceiro-logo">
+                        <a href="http://www.neogrid.com" target="_blank"><img src="img/neogrid.png" width="296" height="100"/></a>
+                    </div>
+                </div>
+            </div>-->
+        </section>
+        <!-- Parceiros Section -->
+
+        <!-- Cobertura Section -->
+        <section id="cobertura" class="section-content section-topico">
+            <div class="section-title box-subtitulo-cinza">
+                <div class="box-geral">
+                <h2 class="subtitulo-cinzaescuro item_right"><i class="sprite-seta-azulescuro"></i> Productive Chain Coverage</h2>
+                </div>
+            </div>
+            <div class="box-geral">
+            <div class="row">
+                <div class="col-md-5 cobertura-box1 item_left">
+                    <p class="p-cinza-left texto-cobertura">
+                        In partnership with Neogrid, R&B has acess to 70% of the main medicine distributors and major pharmaceutical nets of the market.
+                    </p>
+                    <div class="grafico-cobertura">
+                        <img src="img/cobertura-img-eng.png" width="595" height="579"/>
+                    </div>
+                </div>
+                <div class="col-md-2 item_right cobertura-boxes2">
+                    <div class="boxes-laterais">
+                        <i class="icone-cobertura1 icone-cobertura1-eng"></i><h2 style="color:#646464;"><span class="destaque-texto-cinza">37</span> Pharmaceutical Chains</h2> 
+                        <p class="p-cinza-left" style="clear: both;">
+                            Raia, Drogasil, Pague Menos, Drogaria São Paulo, Drogarias Pacheco, Dimed-Panvel, Drogaria Araújo, Drogarias Big Ben, Drogaria Onofre, entre outras.
+                        </p>
+                    </div>                   
+                    <div class="boxes-laterais">
+                        <i class="icone-cobertura2"></i> 
+                        <p class="p-cinza-left">
+                            Representing over<br><span class="destaque-texto-cinza" style="line-height: 40px;">14.000</span><br>Drugstores in Brazil
+                        </p>
+                    </div>
+                    <div class="boxes-laterais">
+                        <i class="icone-cobertura3"></i> 
+                        <p class="p-cinza-left" style="margin-top: -20px;">
+                            Present in over <span class="destaque-texto-cinza">57</span>
+                            major retail and distributors chains: Profarma, PanarelloPanpharma, Farma Logística, Oncoprod, Servimed, GAM, Genésio A. Mendes, among others.
+                        </p>
+                    </div>
+                </div>
+                </div>
+            </div>             
+        </section>
+        <!-- Cobertura Section -->
+
+        <!-- Flexibilidade de integração Section -->
+        <section id="flexibilidade" class="section-content section-topico section-cinza-escuro">
+            <div class="section-title box-subtitulo-cinza-medio">
+                <div class="box-geral">
+                <h2 class="subtitulo-cinzaescuro item_right"><i class="sprite-seta-laranja"></i> Integration Flexibility</h2>
+                </div>
+            </div>
+            <div class="box-geral">
+            <div class="row item_left">
+                <div class="col-md-3 texto-flexibilidade">
+                    <h3 class="subtitulo-item subtitulo-item-azul">Understanding each costumer's needs</h3>
+                    <p>The DATAFARMA<strong>R&B</strong> has advanced technology to connect to all hardware solutions providing great flexibility implementation.</p>
+                    <h3 class="subtitulo-item subtitulo-item-azul">Full Compatibility</h3>
+                    <p>Integration to SAP and other ERP's systems included in the service package.</p>
+                </div>
+                <div class="col-md-4 box-integracao-img">
+                    <div class="integracao-img">
+                        <img src="img/flexibilidade-eng.png" width="713" height="660"/>
+                    </div>
+                    <div class="integracao-img-p" style="display: none;">
+                        <img src="img/flexibilidade-eng-p.png" width="350" height="333"/>
+                        <p>Total availability of data when requested by the responsable laboratory.</p>
+                    </div>
+                </div>
+            </div>    
+            </div>
+        </section>
+        <!-- Flexibilidade de integração Section -->
+
+        <!-- Dashboard Section -->
+        <section id="dashboard" class="section-content section-topico section-cinza-escuro2">
+            <div class="section-title text-center box-subtitulo box-subtitulo-cinza-escuro">
+                <div class="box-geral">
+                <h2 class="subtitulo-reb item_right"><i class="sprite-seta-azulmaisclaro"></i>R&B DASHBOARD</h2>
+                </div>
+            </div>
+            <div class="box-geral">
+            <div class="row row-dashboard">
+                <div class="col-md-11 texto-branco box-center">
+                    <h3 class="subtitulo-azulclaro item_left">Easy usability softwares</h3>
+                    <p class="p-cinza-center">
+                        R&B has developed easy-to-use and multi-plataform softwares. Using 
+                        <strong>Dashboard R&B</strong> you will be able to monitor all track and trace events in real time.
+                    </p>
+                    <div class="grafico-dashboard item_right">
+                        <img src="img/dashboard-img.png"/>
+                    </div>
+                    <!--<div class="box-bt-dashboard">
+                        <a href="#" class="botao-dashboard">ENVIE UM EMAIL PARA COMERCIAL@RASTREABILIDADE.COM.BR E AGENDE UMA DEMONSTRAÇÃO</a>
+                    </div>-->
+                    
+                    <div class="mybutton button-dashboard">
+                            <a class="start-button" href="mailto:comercial@rastreabilidadebrasil.com.br">
+                                <span class="bt-padrao start-button" data-hover="COMERCIAL@RASTREABILIDADEBRASIL.COM.BR">Email us at comercial@rastreabilidadebrasil.com.br and set up a demonstration meeting</span>
+                            </a>
+                        </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- Dashboard Section -->
+
+        <!-- Contato Section -->
+        <section id="contato" class="section-content section-topico background-contato">
+            <div class="section-title text-center box-subtitulo box-subtitulo-azulescuro2">
+                <div class="box-geral">
+                <h2 class="subtitulo-reb item_right"><i class="sprite-seta-laranja"></i> Contact</h2>
+                </div>
+            </div>
+            <div class="box-geral">
+            <div class="row item_left">
+                <div class="col-md-8 box-logo-footer">
+                    <img src="img/logo-footer2.jpg" class="logo-footer"/>
+                    <p class="texto-logo">RASTREABILIDADE<br>BRASIL</p>
+                </div>
+            </div>
+            <div class="row texto-contato item_right">
+                <div class="col-md-2 col-espaco"></div>
+                <div class="col-md-4 texto-branco linha-vertical">
+                    <h2 class="subtitulo-reb subtitulo-contato">São Paulo</h2>
+                    <p>
+                        249 Clodomiro Amazonas Street, 6th floor<br>
+Itaim Bibi – São Paulo – SP<br>
+Zip Code: 04537-010<br>
+Phone: +55 11 3491 5440
+
+                    </p>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-4 texto-branco">
+                    <h2 class="subtitulo-reb subtitulo-contato">Rio de Janeiro</h2>
+                    <p>
+                        199 Quitanda Street, 5th floor<br>
+Downtown – Rio de Janeiro – RJ<br>
+Zip Code: 20091-005<br>
+Phone: +55 21 3197 6974
+                    </p>
+                </div>
+            </div>
+            <div class="row texto-rodape">
+                <div class="col-md-12 box-center texto-branco">
+                    <p style="text-transform: uppercase;">Schedule a presentation at <a href="mailto:comercial@rastreabilidadebrasil.com.br" class="link-footer">COMERCIAL@rastreabilidadebrasil.com.br</a></p>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- Contato Section -->
+
+        <!-- Contact Section 
+        <section id="contact" class="section-content">
+                <div class="container">
+
+        <!-- Section title 
+        <div class="section-title text-center">
+                <div>
+                        <span class="line big"></span>
+                        <span>Quer saber mais?</span>
+                        <span class="line big"></span>
+                </div>
+                <h1 class="item_left">Agende uma apresentação</h1>
+                <div>
+                        <span class="line"></span>
+                        <span>Preencha o formulário abaixo</span>
+                        <span class="line"></span>
+                </div>
+
+        </div>
+        <!-- Section title 
+
+</div>
+
+<div class="container">
+        <div class="element-line">
+
+        <!-- form contact
+        <form method="post" name="contactform" id="contactform" class="element-line validate" role="form" action="mailto:contato@rastreabilidadebrasil.com.br?subject=Agendamento">
+                <div class="form-respond text-center"></div>
+                <div class="row">
+                        <div class="col-md-6 col-sm-6 col-md-6 col-xs-12">
+                                <div class="item_top">
+
+        <!-- Form group 
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-md-6 col-xs-12">
+                <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" id="name" class="form-control input-lg required" placeholder="Digite seu nome">
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-md-6 col-xs-12">
+                <div class="form-group">
+                        <label for="name">Escolha uma Data</label>
+                        <input type="text" name="data" id="data" class="form-control input-lg required" data-date-format="dd/mm/yyyy" placeholder="Clique para escolher uma data">
+                </div>
+            </div>
+        </div>
+        <!-- Form group
+
+        <!-- Form group 
+        <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-control input-lg required email" placeholder="Digite seu email">
+        </div>
+        <!-- Form group 
+
+        <!-- Form group 
+<div class="row">
+
+<div class="col-md-6 col-sm-6 col-md-6 col-xs-12">
+
+<div class="form-group">
+                          <label for="phone">Telefone</label>
+                          <input type="text" name="phone" id="phone" class="form-control input-lg required" placeholder="Digite seu telefone">
+               </div>
+
+</div>
+
+<div class="col-md-6 col-sm-6 col-md-6 col-xs-12">
+
+<div class="form-group">
+                          <label for="empresa">Empresa</label>
+                          <input type="text" name="empresa" id="empresa" class="form-control input-lg required" placeholder="Digite sua empresa">
+               </div>
+
+</div>
+
+</div>
+
+
+        <!-- Form group
+
+</div>
+</div>
+<div class="col-md-6 col-sm-6 col-md-6 col-xs-12">
+<div class="item_bottom">
+
+        <!-- Form group 
+        <div class="form-group">
+                <label for="mensage">Mensagem</label>
+                <textarea name="message" id="message" class="form-control input-lg required" rows="9" placeholder="Digite aqui sua mensagem ou fale sobre seu negócio 
+
+para uma reunião"></textarea>
+        </div>
+        <!-- Form group 
+
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12 text-center">
+<div class="action form-button medium">
+
+        <div class="mybutton sem-animacao medium">
+                <button id="submit" type="submit">
+                        <span class="mybutton">Enviar Mensagem</span>
+                </button>
+        </div>
+
+</div>
+</div>
+</div>
+</form>
+        <!-- form contact 
+</div>
+</div>
+</section>
+        <!-- Contact Section -->
+
+        <!-- Back to top 
+        <a href="#" id="back-top"><i class="fa fa-angle-up fa-2x"></i></a>
+
+        <footer class="text-center">
+    <img class="logo-footer img-responsive" src="./img/logo-footer.jpg"/>
+                <p>© Copyright 2014, Rastreabilidade Brasil S.A.Todos os direitos reservados.</p>
+        </footer>
+
+        <!-- Js Library -->
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+        <script src="js/jquery.plugin.js" type="text/javascript"></script>
+        <script src="js/dist/final.min.js" type="text/javascript"></script>
+        <script src="js/jquery.countdown.en.js" type="text/javascript"></script>
+        <!--<script src="js/jquery/jquery-1.8.2.min.js"></script>
+        <script src="js/jcountdown/jquery.jcountdown.min.js"></script> -->
+        <script src="js/respond.src.js"></script>
+
+        <script>
+            $('#data').datepicker()
+            $(document).ready(function () {
+                window.setTimeout(function () {
+                    $('#vimeo').prepend('<iframe src="//player.vimeo.com/video/96497689??title=0&amp;byline=0&amp;portrait=0" width="960" height="545" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+                }, 1000);
+                
+                window.setTimeout(function () {
+                    $('#piloto-vimeo').prepend('<iframe src="//player.vimeo.com/video/121151179??title=0&amp;byline=0&amp;portrait=0" width="960" height="545" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+                }, 1000);
+            });
+        </script>
+
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-49587408-1', 'rastreabilidadebrasil.com.br');
+            ga('send', 'pageview');
+
+        </script>
+        
+        <script>
+            
+
+</script>
+
+
+        <!-- Js Library -->
+
+        <script>
+            $(window).scroll(function () {
+                nScrollPosition = $(window).scrollTop();
+                if (nScrollPosition >= 600) {
+                    $(".navbar-inner").removeClass("navbar-azul");
+                    $(".navbar-inner").addClass("navbar-cinza");
+                    $("#brand-home").css('display', 'inherit');
+                } else {
+                    $(".navbar-inner").removeClass("navbar-cinza");
+                    $(".navbar-inner").addClass("navbar-azul");
+                    $("#brand-home").css('display', 'none');
+                }
+            });
+        </script>
+        
+        
+    </body>
+</html>
