@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'AvenirLTStd85HeavyOblique';
+    src: url('avenirltstd-heavyoblique.eot');
+    src: url('avenirltstd-heavyoblique.eot') format('embedded-opentype'),
+         url('avenirltstd-heavyoblique.woff2') format('woff2'),
+         url('avenirltstd-heavyoblique.woff') format('woff'),
+         url('avenirltstd-heavyoblique.ttf') format('truetype'),
+         url('avenirltstd-heavyoblique.svg#AvenirLTStd85HeavyOblique') format('svg');
+}

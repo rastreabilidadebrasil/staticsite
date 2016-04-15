@@ -1,0 +1,32 @@
+CACHE MANIFEST
+#REV 2014-02-17 a
+http://www.rastreabilidadebrasil.com.br/validar/index.html
+http://www.rastreabilidadebrasil.com.br/validar/atencao.html
+http://www.rastreabilidadebrasil.com.br/validar/sucesso.html
+http://www.rastreabilidadebrasil.com.br/validar/valida.html
+
+http://www.rastreabilidadebrasil.com.br/validar/assets/css/@2x.css
+http://www.rastreabilidadebrasil.com.br/validar/assets/css/flexslider.css
+http://www.rastreabilidadebrasil.com.br/validar/assets/css/reset.css
+http://www.rastreabilidadebrasil.com.br/validar/assets/css/style.css
+
+http://www.rastreabilidadebrasil.com.br/validar/assets/img/atencao/atencao.png
+http://www.rastreabilidadebrasil.com.br/validar/assets/img/atencao/maisinfo.png
+http://www.rastreabilidadebrasil.com.br/validar/assets/img/home/footer.png
+http://www.rastreabilidadebrasil.com.br/validar/assets/img/home/topo.png
+http://www.rastreabilidadebrasil.com.br/validar/assets/img/ok/menu.png
+http://www.rastreabilidadebrasil.com.br/validar/assets/img/ok/validado.png
+
+http://www.rastreabilidadebrasil.com.br/validar/assets/img/validar/botao.png
+http://www.rastreabilidadebrasil.com.br/validar/assets/img/validar/botaon.png
+http://www.rastreabilidadebrasil.com.br/validar/assets/img/validar/topo.png
+http://www.rastreabilidadebrasil.com.br/validar/assets/img/validar/topo2.png
+http://www.rastreabilidadebrasil.com.br/validar/assets/img/topo.png
+
+
+
+
+
+# All other resources (e.g. sites) require the user to be online. 
+NETWORK:
+*

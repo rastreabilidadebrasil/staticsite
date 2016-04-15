@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+@Versao: 1.0
+@Data: 2014-06-01
+  -->
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.rastreabilidadebrasil.com.br/RBTypes" xmlns:rb="http://www.rastreabilidadebrasil.com.br/RBTypes"
+	elementFormDefault="qualified" version="1.0">
+	<simpleType name="NonEmptyString">
+			<restriction base="string">
+				<whiteSpace value="collapse"/>
+				<minLength value="1"/>
+			</restriction>
+	</simpleType>
+	<simpleType name="CNPJ">
+		<annotation>
+				<documentation>Sem pontos e tracos</documentation>
+			</annotation>
+			<restriction base="string">
+					<pattern value="\d{14}" />
+					<length value="14" />
+			</restriction>
+	</simpleType>
+	<simpleType name="Codigo">
+			<restriction base="int">
+			</restriction>
+	</simpleType>
+	<simpleType name="Latitude">
+			<restriction base="decimal">
+			</restriction>
+	</simpleType>
+	<simpleType name="Longitude">
+			<restriction base="decimal">
+			</restriction>
+	</simpleType>
+	<simpleType name="RegistroAnvisa">
+			<restriction base="string">
+					<pattern value="[1]{1}[0-9]{12}"/>
+					<length value="13"/>
+			</restriction>
+	</simpleType>
+	<simpleType name="GTIN">
+			<restriction base="string">
+					<pattern value="[0-9]{8}|[0-9]{12}|[0-9]{13}|[0-9]{14}"/>
+			</restriction>
+	</simpleType>
+	<simpleType name="DataValidade">
+		<annotation>
+			<documentation>Formato: MMAA</documentation>
+		</annotation>
+			<restriction base="string">
+					<pattern value="(([0]{1}[1-9]{1})|([1]{1}[0-2]{1}))\d{2}"></pattern>
+					<length value="4"/>
+			</restriction>
+	</simpleType>
+	<simpleType name="Lote">
+			<restriction base="string">
+					<whiteSpace value="collapse" />
+					<minLength value="1" />
+					<maxLength value="20" />
+			</restriction>
+	</simpleType>
+	<simpleType name="Serial">
+			<restriction base="string">
+					<pattern value="[0-9]{13}" />
+					<length value="13" />
+			</restriction>
+	</simpleType>
+	<simpleType name="Info">
+			<restriction base="string">
+					<minLength value="0" />
+					<maxLength value="512" />
+			</restriction>
+	</simpleType>
+	<simpleType name="InfoCliente">
+			<restriction base="string">
+					<minLength value="0" />
+					<maxLength value="512" />
+			</restriction>
+	</simpleType>
+    <element name="Eventos" type="rb:eventosType">
+	    <unique name="unique-id">
+	    	<selector xpath="*"/>
+	    	<field xpath="@id"/>
+	   	</unique>
+    </element>
+  <complexType name="ocorrenciaType">
+    <sequence>
+      <element type="string" name="IdItem"/>
+      <element type="rb:Codigo" name="Codigo"/>
+      <element type="string" name="NotaFiscal"  minOccurs="0"/>
+      <element type="integer" name="Timestamp"/>
+      <element type="integer" name="Timezone"/>
+      <element type="rb:Latitude" name="Latitude" minOccurs="0"/>
+      <element type="rb:Longitude" name="Longitude" minOccurs="0"/>
+      <element type="rb:Info" name="Info" minOccurs="0"/>
+      <element type="rb:InfoCliente" name="InfoCliente" minOccurs="0"/>
+    </sequence>
+		<attribute type="rb:NonEmptyString" name="id" use="required"/>
+  </complexType>
+  <complexType name="childrenType">
+    <sequence>
+      <element type="string"  maxOccurs="unbounded" minOccurs="1" name="IdItem"/>
+    </sequence>
+  </complexType>
+  <complexType name="itemType">
+    <sequence>
+      <element type="rb:GTIN" name="GTIN"/>
+      <element type="rb:RegistroAnvisa" name="RegistroAnvisa"/>
+      <element type="rb:Serial" name="Serial"/>
+      <element type="rb:Lote" name="Lote"/>
+      <element type="rb:DataValidade" name="DataValidade"/>
+    </sequence>
+  </complexType>
+  <complexType name="cancelamentoType">
+    <sequence>
+      <element type="string" name="IdItem"/>
+      <element type="rb:Codigo" name="Codigo"/>
+      <element type="string" name="IdOcorrenciaCancelada" minOccurs="0"/><!-- caso nao seja informado, sera cancelado o ultimo evento com este codigo -->
+      <element type="integer" name="Timestamp"/>
+      <element type="integer" name="Timezone"/>
+      <element type="rb:Latitude" name="Latitude" minOccurs="0"/>
+      <element type="rb:Longitude" name="Longitude" minOccurs="0"/>
+      <element type="rb:Info" name="Info" minOccurs="0"/>
+      <element type="rb:InfoCliente" name="InfoCliente" minOccurs="0"/>
+    </sequence>
+		<attribute type="rb:NonEmptyString" name="id" use="required"/>
+  </complexType>
+  <complexType name="movimentacaoType">
+    <sequence>
+      <element type="string" name="IdItem"/>
+      <element type="rb:Codigo" name="Codigo"/>
+      <element type="rb:CNPJ" name="CNPJOrigem"/>
+      <element type="rb:CNPJ" name="CNPJTransportadora"/>
+      <element type="rb:CNPJ" name="CNPJDestino"/>
+      <element type="string" name="NotaFiscal"/>
+      <element type="integer" name="Timestamp"/>
+      <element type="integer" name="Timezone"/>
+      <element type="rb:Latitude" name="Latitude" minOccurs="0"/>
+      <element type="rb:Longitude" name="Longitude" minOccurs="0"/>
+      <element type="rb:Info" name="Info" minOccurs="0"/>
+      <element type="rb:InfoCliente" name="InfoCliente" minOccurs="0"/>
+    </sequence>
+		<attribute type="rb:NonEmptyString" name="id" use="required"/>
+  </complexType>
+  <complexType name="agregacaoType">
+    <sequence>
+      <element type="string" name="IdParent"/>
+      <element type="rb:childrenType" name="Itens" maxOccurs="unbounded" minOccurs="1"/>
+      <element type="integer" name="Timestamp"/>
+      <element type="integer" name="Timezone"/>
+      <element type="rb:Latitude" name="Latitude" minOccurs="0"/>
+      <element type="rb:Longitude" name="Longitude" minOccurs="0"/>
+      <element type="rb:Info" name="Info" minOccurs="0"/>
+      <element type="rb:InfoCliente" name="InfoCliente" minOccurs="0"/>
+    </sequence>
+		<attribute type="rb:NonEmptyString" name="id" use="required"/>
+  </complexType>
+  <complexType name="eventosType">
+    <choice maxOccurs="unbounded" minOccurs="0">
+      <annotation>
+        <documentation>Ordem ascendente de timestamp</documentation>
+      </annotation>
+      <element type="rb:registroType" name="Registro"/>
+      <element type="rb:agregacaoType" name="Agregacao"/>
+      <element type="rb:movimentacaoType" name="Movimentacao"/>
+      <element type="rb:ocorrenciaType" name="Ocorrencia"/>
+      <element type="rb:cancelamentoType" name="Cancelamento"/>
+    </choice>
+  </complexType>
+  <complexType name="registroType">
+    <sequence>
+      <element type="rb:itemType" name="Item"/>
+      <element type="integer" name="Timestamp"/>
+      <element type="integer" name="Timezone"/>
+      <element type="rb:Latitude" name="Latitude" minOccurs="0"/>
+      <element type="rb:Longitude" name="Longitude" minOccurs="0"/>
+      <element type="rb:Info" name="Info" minOccurs="0"/>
+      <element type="rb:InfoCliente" name="InfoCliente" minOccurs="0"/>
+    </sequence>
+		<attribute type="rb:NonEmptyString" name="id" use="required"/>
+  </complexType>
+</schema>
